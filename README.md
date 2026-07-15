@@ -19,6 +19,7 @@ scripts/import-prism             Local command-line entrypoint
 scripts/apply-review             Persist completed review decisions
 scripts/build-mrpack             Build one Modrinth pack profile
 scripts/build-all                Build all three profiles locally
+scripts/build-release-metadata   Build the client-facing release contract
 src/prism_list_builder.py        Import and classification implementation
 tests/                           Offline unit tests
 ```
@@ -117,8 +118,18 @@ Build the three `.mrpack` variants locally:
 ```
 
 Pack identity, Minecraft, and loader versions live in `pack/pack.json`. GitHub
-Actions runs the same builder for pull requests and `main`; tags matching `v*`
-also publish all three files on a GitHub Release.
+Actions runs the same builder for pull requests and `main`. A tag matching the
+exact pack version publishes an immutable GitHub Release:
+
+```bash
+git tag pack-v1.0.0
+git push origin pack-v1.0.0
+```
+
+The release contains all three `.mrpack` files, `SHA256SUMS`, and a
+`release-manifest.json` contract for `smp-client`. The workflow rejects a tag
+that does not equal `pack-v<pack.json version>` or a catalog with pending
+review entries.
 
 ```bash
 python3 -m unittest discover -s tests -v
