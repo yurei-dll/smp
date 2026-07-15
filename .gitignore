@@ -1,0 +1,8 @@
+imports/*.json
+!imports/.gitkeep
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+
