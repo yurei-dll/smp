@@ -23,6 +23,10 @@ src/prism_list_builder.py        Import and classification implementation
 tests/                           Offline unit tests
 ```
 
+The planned JAR and platform-metadata identification rules are specified in
+[docs/CLASSIFICATION.md](docs/CLASSIFICATION.md). That document also defines
+the review-and-rerun workflow for classifications that are not high confidence.
+
 ## Import a Prism mod list
 
 In Prism, open the instance's **Mods** page, select **Export List**, choose
