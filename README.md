@@ -2,6 +2,8 @@
 
 [![Build modpacks](https://github.com/yurei-dll/smp/actions/workflows/build-modpacks.yml/badge.svg)](https://github.com/yurei-dll/smp/actions/workflows/build-modpacks.yml)
 
+For *users*, you're probably looking for the client located on the [sister repo](https://github.com/yurei-dll/smp-client).
+
 This repository turns a Prism Launcher instance into stable, reviewable inputs
 for several Minecraft pack profiles. It reads Prism's packwiz index, inspects
 installed JAR metadata, applies persistent classifications, and writes one
