@@ -32,7 +32,9 @@ class Evidence:
 @dataclass
 class Inspection:
     filename: str
+    sha1: str | None = None
     sha512: str | None = None
+    file_size: int | None = None
     runtime: str = "unknown"
     runtime_confidence: str = "unknown"
     evidence: list[Evidence] = field(default_factory=list)
@@ -158,11 +160,18 @@ def _record_forge(inspection: Inspection, metadata: dict[str, Any], source: str)
 
 def inspect_jar(path: Path) -> Inspection:
     inspection = Inspection(filename=path.name)
-    digest = hashlib.sha512()
+    sha1 = hashlib.sha1()
+    sha512 = hashlib.sha512()
+    size = 0
     with path.open("rb") as handle:
         for block in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(block)
-    inspection.sha512 = digest.hexdigest()
+            sha1.update(block)
+            sha512.update(block)
+            size += len(block)
+    inspection.sha1 = sha1.hexdigest()
+    inspection.sha512 = sha512.hexdigest()
+    inspection.file_size = size
+    inspection.evidence.append(Evidence("jar", "sha1", inspection.sha1, "high"))
     inspection.evidence.append(Evidence("jar", "sha512", inspection.sha512, "high"))
 
     try:
@@ -311,7 +320,9 @@ def inspection_dict(inspection: Inspection, proposal: Proposal) -> dict[str, Any
         "proposed_group": proposal.group,
         "confidence": proposal.confidence,
         "reason": proposal.reason,
+        "sha1": inspection.sha1,
         "sha512": inspection.sha512,
+        "file_size": inspection.file_size,
         "platform": inspection.platform,
         "evidence": [item.as_dict() for item in inspection.evidence],
         "warnings": inspection.warnings,

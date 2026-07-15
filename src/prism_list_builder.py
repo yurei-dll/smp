@@ -9,7 +9,7 @@ import json
 import os
 import sys
 import tomllib
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -56,6 +56,7 @@ class Mod:
     project_id: str | None
     declared_side: str | None = None
     platform_version_id: str | None = None
+    download_url: str | None = None
 
     @property
     def identity(self) -> str:
@@ -84,6 +85,8 @@ class Mod:
             result["platform_version_id"] = self.platform_version_id
         if self.declared_side:
             result["declared_side"] = self.declared_side
+        if self.download_url:
+            result["download_url"] = self.download_url
         return result
 
 
@@ -164,6 +167,7 @@ def _mod_from_packwiz(path: Path) -> Mod:
         project_id=project_id if isinstance(project_id, str) else None,
         declared_side=side if side in {"client", "server", "both"} else None,
         platform_version_id=version_id if isinstance(version_id, str) else None,
+        download_url=str(download_url) if download_url else None,
     )
 
 
@@ -191,6 +195,33 @@ def load_prism_instance(instance: Path) -> tuple[list[Mod], Path]:
             )
     result = sorted(mods.values(), key=lambda mod: (mod.name.casefold(), mod.filename.casefold()))
     return result, mods_dir
+
+
+def apply_source_overrides(mods: list[Mod], path: Path) -> list[Mod]:
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError as exc:
+        raise ImportErrorDetail(f"source overrides file does not exist: {path}") from exc
+    except json.JSONDecodeError as exc:
+        raise ImportErrorDetail(f"{path}:{exc.lineno}:{exc.colno}: invalid JSON: {exc.msg}") from exc
+    if not isinstance(raw, dict):
+        raise ImportErrorDetail(f"{path}: top-level value must be an object")
+    by_filename = {mod.filename.casefold(): mod for mod in mods}
+    for filename, fields in raw.items():
+        if not isinstance(filename, str) or not isinstance(fields, dict):
+            raise ImportErrorDetail(f"{path}: source overrides must map filenames to objects")
+        key = filename.casefold()
+        mod = by_filename.get(key)
+        if not mod:
+            raise ImportErrorDetail(f"{path}: source override does not match an installed JAR: {filename}")
+        allowed = {"name", "source", "project_id", "platform_version_id", "download_url"}
+        unknown = set(fields) - allowed
+        if unknown:
+            raise ImportErrorDetail(f"{path}: {filename}: unknown fields: {', '.join(sorted(unknown))}")
+        if not all(isinstance(value, str) and value.strip() for value in fields.values()):
+            raise ImportErrorDetail(f"{path}: {filename}: all source values must be non-empty strings")
+        by_filename[key] = replace(mod, **fields)
+    return sorted(by_filename.values(), key=lambda mod: (mod.name.casefold(), mod.filename.casefold()))
 
 
 def load_overrides(path: Path) -> dict[str, set[str]]:
@@ -311,6 +342,12 @@ def parser() -> argparse.ArgumentParser:
         help="persistent classification overrides",
     )
     result.add_argument(
+        "--sources",
+        type=Path,
+        default=repo_root / "pack/source-overrides.json",
+        help="persistent download metadata for unmanaged JARs",
+    )
+    result.add_argument(
         "--output-dir",
         type=Path,
         default=repo_root / "pack/catalog",
@@ -329,6 +366,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         instance = resolve_instance(args.instance, args.prism_root)
         mods, mods_dir = load_prism_instance(instance)
+        mods = apply_source_overrides(mods, args.sources)
         print(f"Using Prism instance: {instance}")
         overrides = load_overrides(args.overrides)
         client = ModrinthClient() if args.modrinth else None

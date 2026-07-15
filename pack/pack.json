@@ -1,0 +1,8 @@
+{
+  "name": "SMP",
+  "version": "1.0.0",
+  "summary": "A private SMP modpack for friends.",
+  "minecraft": "1.21.1",
+  "loader": "neoforge",
+  "loader_version": "21.1.214"
+}
