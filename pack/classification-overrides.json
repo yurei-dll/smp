@@ -1,0 +1,15 @@
+{
+  "core": [
+    "4Al4H3t9",
+    "DistantHorizons-3.2.0-b-1.21.1.jar"
+  ],
+  "client-optional": [
+    "XH8cnjHW",
+    "yBW8D80W"
+  ],
+  "server-required": [],
+  "server-curated": [
+    "8oi3bsk5"
+  ],
+  "ignored": []
+}

@@ -10,7 +10,6 @@ catalog per pack group.
 ```text
 pack/
   catalog/                       Generated categorized mod lists
-  overrides/                     Future pack files and configs
   profiles/                      Pack composition definitions
   classification-overrides.json Persistent human classification decisions
 scripts/import-prism             Local command-line entrypoint
