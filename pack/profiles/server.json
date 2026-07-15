@@ -1,5 +1,4 @@
 {
   "name": "SMP Server",
-  "include": ["core", "server-required", "server-curated"]
+  "include": ["core", "server"]
 }
-

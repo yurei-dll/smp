@@ -1,0 +1,415 @@
+[
+  {
+    "filename": "AdditionalStructures-1.21-(v.6.3.2-NEO).jar",
+    "name": "Additional Structures",
+    "url": "https://modrinth.com/mod/TWsbC6jW",
+    "version": "Icuq1Ueb",
+    "source": "modrinth",
+    "project_id": "TWsbC6jW",
+    "platform_version_id": "Icuq1Ueb",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/TWsbC6jW/versions/Icuq1Ueb/AdditionalStructures-1.21-%28v.6.3.2-NEO%29.jar",
+    "classification": {
+      "runtime": "server",
+      "runtime_confidence": "high",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Prism side 'server' mapped by repository pack policy",
+      "sha1": "8aded0dfac2208ade2b5d5c8a63b64d9cc19f833",
+      "sha512": "c1eb080713f50ff5c9431b7a2d73f5ef2ae8338f6e9e6483224e08bf3f99cf33962f64951e905a895574c791cb5d4494a09a46d41069c4d8da5a07fd39717dce",
+      "file_size": 1542886,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "8aded0dfac2208ade2b5d5c8a63b64d9cc19f833",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "c1eb080713f50ff5c9431b7a2d73f5ef2ae8338f6e9e6483224e08bf3f99cf33962f64951e905a895574c791cb5d4494a09a46d41069c4d8da5a07fd39717dce",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "additionalstructures"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "additionalstructures": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "AI-Improvements-1.21-0.5.3.jar",
+    "name": "AI Improvements",
+    "url": "https://modrinth.com/mod/DSVgwcji",
+    "version": "dGNP90t0",
+    "source": "modrinth",
+    "project_id": "DSVgwcji",
+    "platform_version_id": "dGNP90t0",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/DSVgwcji/versions/dGNP90t0/AI-Improvements-1.21-0.5.3.jar",
+    "classification": {
+      "runtime": "server",
+      "runtime_confidence": "high",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Prism side 'server' mapped by repository pack policy",
+      "sha1": "b4a8e11384454bcc341043b251db7fb5afdfdf45",
+      "sha512": "ded870e90953ea915d24ac4c81799b95b321dda39936cd4cd620302b48882141fa3b9f1af658bdc6c25dc48de003223b91f3669b69efcc92c8666a3983f0fccc",
+      "file_size": 28984,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "b4a8e11384454bcc341043b251db7fb5afdfdf45",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "ded870e90953ea915d24ac4c81799b95b321dda39936cd4cd620302b48882141fa3b9f1af658bdc6c25dc48de003223b91f3669b69efcc92c8666a3983f0fccc",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "aiimprovements"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "aiimprovements": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "Companion-1.21.1-NeoForge-6.1.1.jar",
+    "name": "Companion 🐕",
+    "url": "https://modrinth.com/mod/4w0EzGRW",
+    "version": "eOB43rJ0",
+    "source": "modrinth",
+    "project_id": "4w0EzGRW",
+    "platform_version_id": "eOB43rJ0",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/4w0EzGRW/versions/eOB43rJ0/Companion-1.21.1-NeoForge-6.1.1.jar",
+    "classification": {
+      "runtime": "server",
+      "runtime_confidence": "high",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Prism side 'server' mapped by repository pack policy",
+      "sha1": "33082435dc0a7d053ca7ff1b62cd9e73ea8347a4",
+      "sha512": "9ea754d6e87618a042b134d3e864a8155f99b12ef7aa13190cd646b7462429c13bff191368ae38062fd1de486339a94c4cbef06e7ccfd79f08f01420ee20eed6",
+      "file_size": 41800,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "33082435dc0a7d053ca7ff1b62cd9e73ea8347a4",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "9ea754d6e87618a042b134d3e864a8155f99b12ef7aa13190cd646b7462429c13bff191368ae38062fd1de486339a94c4cbef06e7ccfd79f08f01420ee20eed6",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "companion"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "companion": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "lithostitched-1.5.3-neoforge-1.21.1.jar",
+    "name": "Lithostitched",
+    "url": "https://modrinth.com/mod/XaDC71GB",
+    "version": "ltnBesQ4",
+    "source": "modrinth",
+    "project_id": "XaDC71GB",
+    "platform_version_id": "ltnBesQ4",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/XaDC71GB/versions/ltnBesQ4/lithostitched-1.5.3-neoforge-1.21.1.jar",
+    "classification": {
+      "runtime": "server",
+      "runtime_confidence": "high",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Prism side 'server' mapped by repository pack policy",
+      "sha1": "b6e52e9efe65e6cb1f87495a783e532cc2b72955",
+      "sha512": "0e9de6b2f4f30ce4289cdef4c0c7154e46848b5aa81631d8fe206f90c004e9e3c8198b2f7e55f7714a9d53b207258762d413eeeb11868ec36bb902ae30407da2",
+      "file_size": 564593,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "b6e52e9efe65e6cb1f87495a783e532cc2b72955",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0e9de6b2f4f30ce4289cdef4c0c7154e46848b5aa81631d8fe206f90c004e9e3c8198b2f7e55f7714a9d53b207258762d413eeeb11868ec36bb902ae30407da2",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "lithostitched"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "lithostitched": []
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "tectonic-3.0.17-neoforge-1.21.1.jar",
+    "name": "Tectonic",
+    "url": "https://modrinth.com/mod/lWDHr9jE",
+    "version": "fTPmbv20",
+    "source": "modrinth",
+    "project_id": "lWDHr9jE",
+    "platform_version_id": "fTPmbv20",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/lWDHr9jE/versions/fTPmbv20/tectonic-3.0.17-neoforge-1.21.1.jar",
+    "classification": {
+      "runtime": "server",
+      "runtime_confidence": "high",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Prism side 'server' mapped by repository pack policy",
+      "sha1": "aca67dff6d4cf4590f307523adf40a28d49fa351",
+      "sha512": "705422e7140332d54de5f2e4eee4f1a82ebfd2d1a36d2e59216ab56982de79b2e6ae62f78927b98b15bdcaedbc7f4a49ff8ee58a1508c06695d594b1583837c8",
+      "file_size": 317752,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "aca67dff6d4cf4590f307523adf40a28d49fa351",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "705422e7140332d54de5f2e4eee4f1a82ebfd2d1a36d2e59216ab56982de79b2e6ae62f78927b98b15bdcaedbc7f4a49ff8ee58a1508c06695d594b1583837c8",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "tectonic"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "tectonic": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "Terralith_1.21.x_v2.5.8.jar",
+    "name": "Terralith",
+    "url": "https://modrinth.com/mod/8oi3bsk5",
+    "version": "MuJMtPGQ",
+    "source": "modrinth",
+    "project_id": "8oi3bsk5",
+    "platform_version_id": "MuJMtPGQ",
+    "declared_side": "server",
+    "download_url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/MuJMtPGQ/Terralith_1.21.x_v2.5.8.jar",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "medium",
+      "proposed_group": "server",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085",
+      "sha512": "f862ed5435ce4c11a97d2ea5c40eee9f817c908f3223b5fd3e3fff0562a55111d7429dc73a2f1ca0b1af7b1ff6fa0470ed6efebb5de13336c40bb70fb357dd60",
+      "file_size": 3115385,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "bee0cfb1a8cd4bf3d96bccea224fb45d74de9085",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "f862ed5435ce4c11a97d2ea5c40eee9f817c908f3223b5fd3e3fff0562a55111d7429dc73a2f1ca0b1af7b1ff6fa0470ed6efebb5de13336c40bb70fb357dd60",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "*",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "terralith",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "2.5.8",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "terralith"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "terralith": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "terralith"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "terralith": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "server",
+          "strength": "high"
+        }
+      ],
+      "warnings": [
+        "Prism index side 'server' conflicts with JAR runtime 'both'"
+      ],
+      "classification_source": "manual-override"
+    }
+  }
+]

@@ -8,7 +8,7 @@
     "Pp78cYOP",
     "ZYgyPyfq"
   ],
-  "client-optional": [
+  "client": [
     "AtT9wm5O",
     "bpRHnWUb",
     "EyJFr6Vw",
@@ -20,11 +20,9 @@
     "yBW8D80W",
     "ZcR9weSm"
   ],
-  "server-required": [
+  "server": [
     "2BwBOmBQ",
-    "o1C1Dkj5"
-  ],
-  "server-curated": [
+    "o1C1Dkj5",
     "8oi3bsk5"
   ],
   "ignored": []

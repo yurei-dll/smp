@@ -1,0 +1,1804 @@
+[
+  {
+    "filename": "entity_model_features_1.21-neoforge-3.0.7.jar",
+    "name": "[EMF] Entity Model Features",
+    "url": "https://modrinth.com/mod/4I1XuqiY",
+    "version": "sKRcyJZ6",
+    "source": "modrinth",
+    "project_id": "4I1XuqiY",
+    "platform_version_id": "sKRcyJZ6",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/sKRcyJZ6/entity_model_features_1.21-neoforge-3.0.7.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "f99ae3a4701a2ae822dbbc5cf1eab49aff0c2777",
+      "sha512": "f429aadddb3723a9bb4056e13dfd2c7dca1c6af471c11066eb6bafe72d25758c58897229b6a4aae4898cb3cef0db252844d0eaa14033acc67438ae8640cbaaa7",
+      "file_size": 474594,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "f99ae3a4701a2ae822dbbc5cf1eab49aff0c2777",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "f429aadddb3723a9bb4056e13dfd2c7dca1c6af471c11066eb6bafe72d25758c58897229b6a4aae4898cb3cef0db252844d0eaa14033acc67438ae8640cbaaa7",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "entity_model_features"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "entity_model_features": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "entity_sound_features_1.21-neoforge-0.7.1.jar",
+    "name": "[ESF] Entity Sound Features",
+    "url": "https://modrinth.com/mod/IMuO8COj",
+    "version": "BcsnIPDq",
+    "source": "modrinth",
+    "project_id": "IMuO8COj",
+    "platform_version_id": "BcsnIPDq",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/IMuO8COj/versions/BcsnIPDq/entity_sound_features_1.21-neoforge-0.7.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "fc9c9ecca9c14aedb0a5a0bec667d1ba6e726b40",
+      "sha512": "5c096a6f1706b9cfa0b8973597b761d151755b035b654f563f1d2a699796c86c4ae11ab33ca3bfb84a40e738c039f2081cbfa3af18b48374d9828d9f5ebec468",
+      "file_size": 99751,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "fc9c9ecca9c14aedb0a5a0bec667d1ba6e726b40",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "5c096a6f1706b9cfa0b8973597b761d151755b035b654f563f1d2a699796c86c4ae11ab33ca3bfb84a40e738c039f2081cbfa3af18b48374d9828d9f5ebec468",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "entity_sound_features"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "entity_sound_features": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "entity_texture_features_1.21-neoforge-7.0.6.jar",
+    "name": "[ETF] Entity Texture Features",
+    "url": "https://modrinth.com/mod/BVzZfTc1",
+    "version": "PDrlXJz8",
+    "source": "modrinth",
+    "project_id": "BVzZfTc1",
+    "platform_version_id": "PDrlXJz8",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/PDrlXJz8/entity_texture_features_1.21-neoforge-7.0.6.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "fcf2df8ede6007d4ab8ae86013fe29b2d09f6682",
+      "sha512": "783e49ad764163c21a03dd69b7e7693124ed429c32d6b17d663d859a0269c463a990ebc1048ab5b232428a54d1e6e8b4b249d11c802ccd0d1aac93ebed462fed",
+      "file_size": 757756,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "fcf2df8ede6007d4ab8ae86013fe29b2d09f6682",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "783e49ad764163c21a03dd69b7e7693124ed429c32d6b17d663d859a0269c463a990ebc1048ab5b232428a54d1e6e8b4b249d11c802ccd0d1aac93ebed462fed",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "entity_texture_features"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "entity_texture_features": [
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "Controlling-neoforge-1.21.1-19.0.5.jar",
+    "name": "Controlling",
+    "url": "https://modrinth.com/mod/xv94TkTM",
+    "version": "FaNppCJJ",
+    "source": "modrinth",
+    "project_id": "xv94TkTM",
+    "platform_version_id": "FaNppCJJ",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+      "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e",
+      "file_size": 77555,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "controlling"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "controlling": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "distraction_free_recipes-neoforge-1.2.1-1.21.1.jar",
+    "name": "Distraction Free Recipes (EMI / REI / JEI)",
+    "url": "https://modrinth.com/mod/gbJLUhZP",
+    "version": "H0rFJIiC",
+    "source": "modrinth",
+    "project_id": "gbJLUhZP",
+    "platform_version_id": "H0rFJIiC",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/gbJLUhZP/versions/H0rFJIiC/distraction_free_recipes-neoforge-1.2.1-1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "ece9588b8c0f1825bac33c915378af761b6101ae",
+      "sha512": "e32874486193ae21abe4b0afc03b8864a1e01173192bd26a1df258823ac27867101dcffa526e69a4370d008fe13755234ec18725a87bbe3c338173100f58d7ce",
+      "file_size": 58044,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "ece9588b8c0f1825bac33c915378af761b6101ae",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "e32874486193ae21abe4b0afc03b8864a1e01173192bd26a1df258823ac27867101dcffa526e69a4370d008fe13755234ec18725a87bbe3c338173100f58d7ce",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "distraction_free_recipes"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "distraction_free_recipes": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "distraction_free_recipes"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "distraction_free_recipes": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "dynamiccrosshair-9.10+1.21.1-neoforge.jar",
+    "name": "Dynamic Crosshair",
+    "url": "https://modrinth.com/mod/ZcR9weSm",
+    "version": "FUpfKswj",
+    "source": "modrinth",
+    "project_id": "ZcR9weSm",
+    "platform_version_id": "FUpfKswj",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/ZcR9weSm/versions/FUpfKswj/dynamiccrosshair-9.10%2B1.21.1-neoforge.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "c4ec59d1203da9b4237e0f30b36be78cbdd38240",
+      "sha512": "b806fca305b65808f66b71675d244de966b4985a43ee0fa0647ac64b9089bc82dfe64f8a2fa656dac9508ac0c5bf4f7692ababb3f8d0c84396e7873437806530",
+      "file_size": 514617,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "c4ec59d1203da9b4237e0f30b36be78cbdd38240",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b806fca305b65808f66b71675d244de966b4985a43ee0fa0647ac64b9089bc82dfe64f8a2fa656dac9508ac0c5bf4f7692ababb3f8d0c84396e7873437806530",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dynamiccrosshair"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "dynamicsurroundings-neoforge-1.21.1-0.4.2.jar",
+    "name": "Dynamic Surroundings",
+    "url": "https://modrinth.com/mod/H7fshfpD",
+    "version": "aFsN201L",
+    "source": "modrinth",
+    "project_id": "H7fshfpD",
+    "platform_version_id": "aFsN201L",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/H7fshfpD/versions/aFsN201L/dynamicsurroundings-neoforge-1.21.1-0.4.2.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "675e9d0ed4ea3ac1e97539ee5c1d1e8c5cdca14d",
+      "sha512": "5636be0ba41410cea3ef1e21b26636aea501d8d60228be06bdbcf48eac7056b623a72f4eed90e7027fc0d9e2aa17753f446fcadac42af40bdd355a69b8f76972",
+      "file_size": 14844663,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "675e9d0ed4ea3ac1e97539ee5c1d1e8c5cdca14d",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "5636be0ba41410cea3ef1e21b26636aea501d8d60228be06bdbcf48eac7056b623a72f4eed90e7027fc0d9e2aa17753f446fcadac42af40bdd355a69b8f76972",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dsurround"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "dsurround": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
+    "name": "EMI Addon: Extra Mod Integrations",
+    "url": "https://modrinth.com/mod/bpRHnWUb",
+    "version": "bxgGyUjY",
+    "source": "modrinth",
+    "project_id": "bpRHnWUb",
+    "platform_version_id": "bxgGyUjY",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/bpRHnWUb/versions/bxgGyUjY/extra-mod-integrations-all-neoforge-1.0.3%2B1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "70429571ccf7faa4c1811092739fb7d645829eef",
+      "sha512": "9267359eefc56bdb1eca2992cba12363f54f974f27ca2031ecb0677ba4c3bcd1d563db94dd569bbdf085a8b890cd7aa681ae6f485859051565b6a2cf50adc4c8",
+      "file_size": 316330,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "70429571ccf7faa4c1811092739fb7d645829eef",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "9267359eefc56bdb1eca2992cba12363f54f974f27ca2031ecb0677ba4c3bcd1d563db94dd569bbdf085a8b890cd7aa681ae6f485859051565b6a2cf50adc4c8",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "extra_mod_integrations"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "extra_mod_integrations": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "emi_enchanting-0.1.2+1.21+neoforge.jar",
+    "name": "EMI Enchanting",
+    "url": "https://modrinth.com/mod/wbWoo11W",
+    "version": "ZyJ6TKvh",
+    "source": "modrinth",
+    "project_id": "wbWoo11W",
+    "platform_version_id": "ZyJ6TKvh",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/wbWoo11W/versions/ZyJ6TKvh/emi_enchanting-0.1.2%2B1.21%2Bneoforge.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "02ad74769ffcec259fd9bb14a1760593f6182b5c",
+      "sha512": "90944c8ff897fa98d0323fe94e4053fb89f43cbaf4fd28d6ad58134cea1469c9398e0c0edd4328a5530e1578ad2286ec5822292bf9c587182e5606dbfff218be",
+      "file_size": 15680,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "02ad74769ffcec259fd9bb14a1760593f6182b5c",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "90944c8ff897fa98d0323fe94e4053fb89f43cbaf4fd28d6ad58134cea1469c9398e0c0edd4328a5530e1578ad2286ec5822292bf9c587182e5606dbfff218be",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emi_enchanting"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emi_enchanting": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "emixx-neoforge-1.2.3.jar",
+    "name": "EMI++",
+    "url": "https://modrinth.com/mod/AWMWYMwC",
+    "version": "sdRUQHCL",
+    "source": "modrinth",
+    "project_id": "AWMWYMwC",
+    "platform_version_id": "sdRUQHCL",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/AWMWYMwC/versions/sdRUQHCL/emixx-neoforge-1.2.3.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79",
+      "sha512": "15eb94d5c2be00f06a96a45a68fc2fe3171f60c87c26d2ebf4ef359271f8b0ee3995f281af17e2b228ab543770ec2d8b486c98f0fe4b511c168a4c0c0e30db40",
+      "file_size": 207208,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "15eb94d5c2be00f06a96a45a68fc2fe3171f60c87c26d2ebf4ef359271f8b0ee3995f281af17e2b228ab543770ec2d8b486c98f0fe4b511c168a4c0c0e30db40",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emixx"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emixx": [
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "emiffect-neoforge-2.1.6+mc1.21.1.jar",
+    "name": "EMIffect",
+    "url": "https://modrinth.com/mod/705gWllI",
+    "version": "S6Q6duUj",
+    "source": "modrinth",
+    "project_id": "705gWllI",
+    "platform_version_id": "S6Q6duUj",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/705gWllI/versions/S6Q6duUj/emiffect-neoforge-2.1.6%2Bmc1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c",
+      "sha512": "60db5a6c2649d58de5514f851cda63c3bef9eb46a827f1f587cca1fa935fe9f8ef8d0fdf3ed71adb4b58193a72f9ce7ea2e9d4d83e274ee70faa6265b4c80dd6",
+      "file_size": 38160,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "0afecce68c1fa9e13ef46d4b20a67f65b19c9d8c",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "60db5a6c2649d58de5514f851cda63c3bef9eb46a827f1f587cca1fa935fe9f8ef8d0fdf3ed71adb4b58193a72f9ce7ea2e9d4d83e274ee70faa6265b4c80dd6",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emiffect"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emiffect": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "entityculling-neoforge-1.9.4-mc1.21.1.jar",
+    "name": "Entity Culling",
+    "url": "https://modrinth.com/mod/NNAgCjsB",
+    "version": "p1xJ9gcC",
+    "source": "modrinth",
+    "project_id": "NNAgCjsB",
+    "platform_version_id": "p1xJ9gcC",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/p1xJ9gcC/entityculling-neoforge-1.9.4-mc1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "d265fdd6f8c052873f098b7acd5db7617f6d7bc0",
+      "sha512": "1c97bcda9ff59b772b89f47beda8c60d08af26984d416af0a065c55b2586f770800e97a7c112bee6debb0cc012697770b62da771b25401be0ec2460476731a8a",
+      "file_size": 1563532,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "d265fdd6f8c052873f098b7acd5db7617f6d7bc0",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "1c97bcda9ff59b772b89f47beda8c60d08af26984d416af0a065c55b2586f770800e97a7c112bee6debb0cc012697770b62da771b25401be0ec2460476731a8a",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "entityculling"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "entityculling": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "entityculling"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "entityculling": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "euphonium-1.0.3+1.21.jar",
+    "name": "Euphonium",
+    "url": "https://modrinth.com/mod/XH8cnjHW",
+    "version": "fXZDW81M",
+    "source": "modrinth",
+    "project_id": "XH8cnjHW",
+    "platform_version_id": "fXZDW81M",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/XH8cnjHW/versions/fXZDW81M/euphonium-1.0.3%2B1.21.jar",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "medium",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "daae0b26547aa340caa342d5bc809c15aa2a7953",
+      "sha512": "d481f4537fb41cffb05f814c6e9b2c33da169f5ead0826232f1abf3e753f0f08accf900f1795a6138ebb9b391d81de14196a089b7c49adaa1bb77b3a9afdbf7d",
+      "file_size": 44308407,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "daae0b26547aa340caa342d5bc809c15aa2a7953",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d481f4537fb41cffb05f814c6e9b2c33da169f5ead0826232f1abf3e753f0f08accf900f1795a6138ebb9b391d81de14196a089b7c49adaa1bb77b3a9afdbf7d",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "*",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "euphonium",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "1.0.3+1.21",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "entrypoints",
+          "value": [
+            "client"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "euphonium"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "euphonium": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [
+        "Prism index side 'client' conflicts with JAR runtime 'both'"
+      ],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "ImmediatelyFast-NeoForge-1.6.8+1.21.1.jar",
+    "name": "ImmediatelyFast",
+    "url": "https://modrinth.com/mod/5ZwdcRci",
+    "version": "fWangWhY",
+    "source": "modrinth",
+    "project_id": "5ZwdcRci",
+    "platform_version_id": "fWangWhY",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/fWangWhY/ImmediatelyFast-NeoForge-1.6.8%2B1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "5b165e9a2b75b71f627b0962a6ad1949fa2b6fea",
+      "sha512": "0c714fb85a14f6c0305adbc2f5132fe37221b9897be18cbd8c8e6f236bf5894a3930a57fe8f1a10f6aa06b412a7d481731980cba83cc672e87a22b31bc1376b6",
+      "file_size": 254698,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "5b165e9a2b75b71f627b0962a6ad1949fa2b6fea",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0c714fb85a14f6c0305adbc2f5132fe37221b9897be18cbd8c8e6f236bf5894a3930a57fe8f1a10f6aa06b412a7d481731980cba83cc672e87a22b31bc1376b6",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "immediatelyfast"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "immediatelyfast": [
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "iris-neoforge-1.8.12+mc1.21.1.jar",
+    "name": "Iris Shaders",
+    "url": "https://modrinth.com/mod/YL57xq9U",
+    "version": "t3ruzodq",
+    "source": "modrinth",
+    "project_id": "YL57xq9U",
+    "platform_version_id": "t3ruzodq",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/YL57xq9U/versions/t3ruzodq/iris-neoforge-1.8.12%2Bmc1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "a3e6355915c7d3b2bc392724795113e51d289378",
+      "sha512": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
+      "file_size": 2438548,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "a3e6355915c7d3b2bc392724795113e51d289378",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "57b8026a3c3c433cf6123d63dc6ce7e11f6d480a72926370db1fc7f2b06059bc16a753ecd7e7af659c19e90b592103196b0e89585ce4f0744a4ca433f59bcf1a",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "iris"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "iris": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "lambdynamiclights-4.8.7+1.21.1.jar",
+    "name": "LambDynamicLights",
+    "url": "https://modrinth.com/mod/yBW8D80W",
+    "version": "CQuTG9xY",
+    "source": "modrinth",
+    "project_id": "yBW8D80W",
+    "platform_version_id": "CQuTG9xY",
+    "declared_side": "both",
+    "download_url": "https://cdn.modrinth.com/data/yBW8D80W/versions/CQuTG9xY/lambdynamiclights-4.8.7%2B1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "medium",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "b7dc4acb053b98810faffab19fde0f18b453a824",
+      "sha512": "eac2c2f5c0a5cc3fa28895ddc3203b2b7214c680dd9c47eabf308fa96f2f54d1a1a5a16b50c35865b61068bd834d538f90e02aceb4c5d9594793807b6068123c",
+      "file_size": 2012226,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "b7dc4acb053b98810faffab19fde0f18b453a824",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "eac2c2f5c0a5cc3fa28895ddc3203b2b7214c680dd9c47eabf308fa96f2f54d1a1a5a16b50c35865b61068bd834d538f90e02aceb4c5d9594793807b6068123c",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "client",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "lambdynlights",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "4.8.7+1.21.1",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "lambdynlights"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "lambdynlights": [
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [
+        "Prism index side 'both' conflicts with JAR runtime 'client'"
+      ],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "leawind_third_person-2.3.0-mc1.21-1.21.1-neoforge.jar",
+    "name": "Leawind's Third Person",
+    "url": "https://modrinth.com/mod/S3D3QF0M",
+    "version": "IyzCjsmN",
+    "source": "modrinth",
+    "project_id": "S3D3QF0M",
+    "platform_version_id": "IyzCjsmN",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/S3D3QF0M/versions/IyzCjsmN/leawind_third_person-2.3.0-mc1.21-1.21.1-neoforge.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "f4ee15870d4dfb41907cc703baf9237c08bcb143",
+      "sha512": "b96f69cc29641d1cd4cfbf17af25082230f6ed290e7493592f5b0be9459412a178d2e2f8348e287522431a8eef453a1e3d10a2f9352a0bb896d7ba253c20a33d",
+      "file_size": 444185,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "f4ee15870d4dfb41907cc703baf9237c08bcb143",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b96f69cc29641d1cd4cfbf17af25082230f6ed290e7493592f5b0be9459412a178d2e2f8348e287522431a8eef453a1e3d10a2f9352a0bb896d7ba253c20a33d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "leawind_third_person"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "leawind_third_person": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "loot_journal-neoforge-1.21.1-4.0.1.jar",
+    "name": "Loot Journal",
+    "url": "https://modrinth.com/mod/OJ6ZYz5L",
+    "version": "vnC2WTix",
+    "source": "modrinth",
+    "project_id": "OJ6ZYz5L",
+    "platform_version_id": "vnC2WTix",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/OJ6ZYz5L/versions/vnC2WTix/loot_journal-neoforge-1.21.1-4.0.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "d788686590699cd605490c8eea35aeded899edc9",
+      "sha512": "738be303f84a82434cdbef2289284751d3b708611b26c8c032b57c40cfbee00cf587fc114968300e5e29ba9e19c3dca576567e05f84c9872849dc461f14d00fe",
+      "file_size": 38231,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "d788686590699cd605490c8eea35aeded899edc9",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "738be303f84a82434cdbef2289284751d3b708611b26c8c032b57c40cfbee00cf587fc114968300e5e29ba9e19c3dca576567e05f84c9872849dc461f14d00fe",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "clientSideOnly",
+          "value": true,
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "loot_journal"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "loot_journal": [
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "mcqoy-0.3.3+neo-1.21.jar",
+    "name": "McQoy",
+    "url": "https://modrinth.com/mod/tNmWwdI2",
+    "version": "yHGo6VsD",
+    "source": "modrinth",
+    "project_id": "tNmWwdI2",
+    "platform_version_id": "yHGo6VsD",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/tNmWwdI2/versions/yHGo6VsD/mcqoy-0.3.3%2Bneo-1.21.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "aa320a29e2286fec150599ca53a5ca5f8924bb61",
+      "sha512": "e934c819d657407e19a17c2da7f42e5d934f495cb5446115284cf0448e8d3e1f4f982f29d756045cc27e32ac868baedb0895509df70b59d309ef70f74b890cbe",
+      "file_size": 305278,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "aa320a29e2286fec150599ca53a5ca5f8924bb61",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "e934c819d657407e19a17c2da7f42e5d934f495cb5446115284cf0448e8d3e1f4f982f29d756045cc27e32ac868baedb0895509df70b59d309ef70f74b890cbe",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "mcqoy"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "name": "Mouse Tweaks",
+    "url": "https://modrinth.com/mod/aC3cM3Vq",
+    "version": "9I21YYxf",
+    "source": "modrinth",
+    "project_id": "aC3cM3Vq",
+    "platform_version_id": "9I21YYxf",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+      "sha512": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b",
+      "file_size": 73938,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "f95c0cc881211ee0442434976775e07aae40b4a2ba4e3a85455bc57ca9d3c991e239cd98374a8abd442dc9c378dcd9001e2caa1bf69991d424b5652dd7f3483b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "mousetweaks"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "notenoughanimations-neoforge-1.11.1-mc1.21.1.jar",
+    "name": "NotEnoughAnimations",
+    "url": "https://modrinth.com/mod/MPCX6s5C",
+    "version": "PJ0Q8Tw8",
+    "source": "modrinth",
+    "project_id": "MPCX6s5C",
+    "platform_version_id": "PJ0Q8Tw8",
+    "declared_side": "both",
+    "download_url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/PJ0Q8Tw8/notenoughanimations-neoforge-1.11.1-mc1.21.1.jar",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha1": "77bc4502a329cf664c28ea21d3abccad26dfca50",
+      "sha512": "edd7092e12c97909c9615dec59eb8d21a2e4d7a71105bc90c646db0868d386a4a95dc0c283ddb2524541021fad8f9cbd29a6086560b5e668452bacc7b401cfab",
+      "file_size": 1928789,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "77bc4502a329cf664c28ea21d3abccad26dfca50",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "edd7092e12c97909c9615dec59eb8d21a2e4d7a71105bc90c646db0868d386a4a95dc0c283ddb2524541021fad8f9cbd29a6086560b5e668452bacc7b401cfab",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "notenoughanimations"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "notenoughanimations": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "notenoughanimations"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "notenoughanimations": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "Searchables-neoforge-1.21.1-1.0.2.jar",
+    "name": "Searchables",
+    "url": "https://modrinth.com/mod/fuuu3xnx",
+    "version": "iEE85X0w",
+    "source": "modrinth",
+    "project_id": "fuuu3xnx",
+    "platform_version_id": "iEE85X0w",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+      "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a",
+      "file_size": 77326,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "searchables"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "searchables": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+    "name": "Sodium",
+    "url": "https://modrinth.com/mod/AANobbMI",
+    "version": "Pb3OXVqC",
+    "source": "modrinth",
+    "project_id": "AANobbMI",
+    "platform_version_id": "Pb3OXVqC",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
+      "sha512": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b",
+      "file_size": 1162994,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sodium"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sodium": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
+    "name": "Sodium Extra",
+    "url": "https://modrinth.com/mod/PtjYWJkn",
+    "version": "pFmw1eci",
+    "source": "modrinth",
+    "project_id": "PtjYWJkn",
+    "platform_version_id": "pFmw1eci",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/pFmw1eci/sodium-extra-neoforge-0.6.0%2Bmc1.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "7473bb42753902c639294821af13e9cd9ee735da",
+      "sha512": "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735ec21916df3f4072f0927dad3673efbc40bf8d11846c3d6fecc9329bb7",
+      "file_size": 367047,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "7473bb42753902c639294821af13e9cd9ee735da",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735ec21916df3f4072f0927dad3673efbc40bf8d11846c3d6fecc9329bb7",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sodium_extra"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sodium_extra": [
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sounds-2.4.22+lts+1.21.1-neoforge.jar",
+    "name": "Sounds",
+    "url": "https://modrinth.com/mod/ZouiUX7t",
+    "version": "kti7i9SG",
+    "source": "modrinth",
+    "project_id": "ZouiUX7t",
+    "platform_version_id": "kti7i9SG",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/ZouiUX7t/versions/kti7i9SG/sounds-2.4.22%2Blts%2B1.21.1-neoforge.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "cbfa42a31515e1bac4bafcdd974fbba29b7d106a",
+      "sha512": "0dbfe1cd74be45241c5e95354e6466af10cb50ce780d87672337bd4de03fa708dc56eb013040bb2a02a941cf19b2b282385c6a5305695a4de3534627c645f053",
+      "file_size": 8732437,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "cbfa42a31515e1bac4bafcdd974fbba29b7d106a",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0dbfe1cd74be45241c5e95354e6466af10cb50ce780d87672337bd4de03fa708dc56eb013040bb2a02a941cf19b2b282385c6a5305695a4de3534627c645f053",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "clientSideOnly",
+          "value": true,
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sounds"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sounds": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "toomanyrecipeviewers-0.7.0+mc.21.1.jar",
+    "name": "TooManyRecipeViewers",
+    "url": "https://modrinth.com/mod/yFypjcfd",
+    "version": "Pg2Xo3Iz",
+    "source": "modrinth",
+    "project_id": "yFypjcfd",
+    "platform_version_id": "Pg2Xo3Iz",
+    "declared_side": "client",
+    "download_url": "https://cdn.modrinth.com/data/yFypjcfd/versions/Pg2Xo3Iz/toomanyrecipeviewers-0.7.0%2Bmc.21.1.jar",
+    "classification": {
+      "runtime": "client",
+      "runtime_confidence": "high",
+      "proposed_group": "client",
+      "confidence": "high",
+      "reason": "Prism side 'client' mapped by repository pack policy",
+      "sha1": "6f50e476a0b542ddaefdbd3fcc5ceb22791244a5",
+      "sha512": "d962f9ab2285fe0b85b3961bb86e9182ab817d9d414ab4b245e0d74d76207340cf80f7fe15c9e6d100605c2a3588edd6635bb1b4504e849f96257c3bc6fd428e",
+      "file_size": 1155645,
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha1",
+          "value": "6f50e476a0b542ddaefdbd3fcc5ceb22791244a5",
+          "strength": "high"
+        },
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d962f9ab2285fe0b85b3961bb86e9182ab817d9d414ab4b245e0d74d76207340cf80f7fe15c9e6d100605c2a3588edd6635bb1b4504e849f96257c3bc6fd428e",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "toomanyrecipeviewers",
+            "jei"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "toomanyrecipeviewers": [
+              "CLIENT",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "client",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  }
+]

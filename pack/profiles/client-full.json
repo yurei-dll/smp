@@ -1,4 +1,4 @@
 {
   "name": "SMP Client Full",
-  "include": ["core", "client-optional"]
+  "include": ["core", "client"]
 }
