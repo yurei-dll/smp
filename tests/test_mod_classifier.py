@@ -77,7 +77,7 @@ displayTest="IGNORE_ALL_VERSION"
         mod = SimpleNamespace(source="modrinth", project_id="project-1")
         add_modrinth_evidence(mod, inspection, FakeModrinthClient())
         proposal = propose(inspection)
-        self.assertEqual(proposal.group, "client-optional")
+        self.assertEqual(proposal.group, "client")
         self.assertEqual(proposal.confidence, "high")
 
     def test_runtime_without_pack_policy_requires_review(self):
@@ -96,14 +96,14 @@ displayTest="IGNORE_ALL_VERSION"
             platform={"client_side": "required", "server_side": "unsupported"},
         )
         proposal = propose(inspection)
-        self.assertEqual(proposal.group, "client-optional")
+        self.assertEqual(proposal.group, "client")
         self.assertEqual(proposal.confidence, "medium")
 
     def test_prism_side_policy_auto_classifies(self):
         expected = {
             "both": "core",
-            "client": "client-optional",
-            "server": "server-curated",
+            "client": "client",
+            "server": "server",
         }
         for side, group in expected.items():
             with self.subTest(side=side):

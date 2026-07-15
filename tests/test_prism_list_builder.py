@@ -5,10 +5,12 @@ from pathlib import Path
 
 from src.prism_list_builder import (
     ImportErrorDetail,
+    Mod,
     apply_source_overrides,
     load_overrides,
     load_prism_instance,
     resolve_instance,
+    write_evidence_outputs,
 )
 
 
@@ -17,7 +19,7 @@ class PrismListBuilderTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "overrides.json"
             path.write_text(
-                json.dumps({"core": ["same"], "client-optional": ["SAME"]}),
+                json.dumps({"core": ["same"], "client": ["SAME"]}),
                 encoding="utf-8",
             )
             with self.assertRaisesRegex(ImportErrorDetail, "appears in both"):
@@ -76,12 +78,37 @@ version = "version"
                 ),
                 encoding="utf-8",
             )
-            from src.prism_list_builder import Mod
-
             mods = [Mod("unmanaged.jar", "Unmanaged", "", "unknown", None, None)]
             updated = apply_source_overrides(mods, path)
             self.assertEqual(updated[0].project_id, "project")
             self.assertTrue(updated[0].download_url.startswith("https://cdn.modrinth.com/"))
+
+    def test_review_json_is_editable_and_reasoning_goes_to_text_report(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory)
+            mod = Mod("example.jar", "Example", "", "unknown", None, None)
+            classification = {
+                "runtime": "both",
+                "runtime_confidence": "high",
+                "proposed_group": "core",
+                "confidence": "medium",
+                "reason": "Needs a human decision",
+                "warnings": ["Conflicting metadata"],
+                "evidence": [
+                    {"source": "test", "field": "side", "value": "both", "strength": "high"}
+                ],
+            }
+            write_evidence_outputs(
+                output,
+                {"core": [], "client": [], "server": []},
+                [(mod, classification)],
+            )
+            review = json.loads((output / "review.json").read_text(encoding="utf-8"))
+            self.assertNotIn("classification", review[0])
+            self.assertIsNone(review[0]["designated_category"])
+            report = (output / "classification-report.txt").read_text(encoding="utf-8")
+            self.assertIn("Needs a human decision", report)
+            self.assertIn("test.side = \"both\" [high]", report)
 
 
 if __name__ == "__main__":
