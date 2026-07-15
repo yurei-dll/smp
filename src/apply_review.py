@@ -70,14 +70,14 @@ def apply_designations(
         location = f"{review_path}[{index}]"
         if not isinstance(raw_entry, dict):
             raise ImportErrorDetail(f"{location}: expected an object")
-        designation = raw_entry.get("designated_profile")
+        designation = raw_entry.get("designated_category")
         if designation is None:
             remaining.append(raw_entry)
             continue
         if not isinstance(designation, str) or designation not in OVERRIDE_GROUPS:
             allowed = ", ".join(OVERRIDE_GROUPS)
             raise ImportErrorDetail(
-                f"{location}: designated_profile must be null or one of: {allowed}"
+                f"{location}: designated_category must be null or one of: {allowed}"
             )
         selector = _selector(raw_entry, location)
         key = selector.casefold()

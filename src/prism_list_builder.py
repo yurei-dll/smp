@@ -36,9 +36,8 @@ except ImportError:  # Direct execution through scripts/import-prism.
 
 GROUPS = (
     "core",
-    "client-optional",
-    "server-required",
-    "server-curated",
+    "client",
+    "server",
 )
 OVERRIDE_GROUPS = (*GROUPS, "ignored")
 
@@ -297,21 +296,47 @@ def write_evidence_outputs(
     output_dir.mkdir(parents=True, exist_ok=True)
     payloads = {group: entries for group, entries in categorized.items()}
     payloads["review"] = review
+    report_sections: list[str] = []
     for group, entries in payloads.items():
         content = []
         for mod, classification in entries:
             item = mod.as_dict()
             if group == "review":
-                item["_instructions"] = (
-                    "Set designated_profile to one allowed_profiles value, then run ./scripts/apply-review"
-                )
-                item["designated_profile"] = None
-                item["allowed_profiles"] = [*GROUPS, "ignored"]
-            item["classification"] = classification
+                item["designated_category"] = None
+                item["allowed_categories"] = [*GROUPS, "ignored"]
+                evidence = classification.get("evidence", [])
+                warnings = classification.get("warnings", [])
+                lines = [
+                    f"{mod.name} ({mod.filename})",
+                    f"  Proposed category: {classification.get('proposed_group') or 'none'}",
+                    f"  Confidence: {classification.get('confidence', 'unknown')}",
+                    f"  Runtime: {classification.get('runtime', 'unknown')} "
+                    f"({classification.get('runtime_confidence', 'unknown')} confidence)",
+                    f"  Reason: {classification.get('reason', 'No reason recorded')}",
+                ]
+                if warnings:
+                    lines.append("  Warnings:")
+                    lines.extend(f"    - {warning}" for warning in warnings)
+                if evidence:
+                    lines.append("  Evidence:")
+                    for detail in evidence:
+                        lines.append(
+                            "    - "
+                            f"{detail.get('source', 'unknown')}.{detail.get('field', 'unknown')} = "
+                            f"{json.dumps(detail.get('value'), ensure_ascii=False)} "
+                            f"[{detail.get('strength', 'unknown')}]"
+                        )
+                report_sections.append("\n".join(lines))
+            else:
+                item["classification"] = classification
             content.append(item)
         (output_dir / f"{group}.json").write_text(
             json.dumps(content, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
+    report = "\n\n".join(report_sections)
+    if report:
+        report += "\n"
+    (output_dir / "classification-report.txt").write_text(report, encoding="utf-8")
     manifest = {
         "schema_version": 2,
         "counts": {group: len(entries) for group, entries in payloads.items()},
@@ -391,7 +416,7 @@ def main(argv: list[str] | None = None) -> int:
         print()
         print("Review required:")
         print(f"  1. Edit {review_path}")
-        print("  2. Set each designated_profile you have decided")
+        print("  2. Set each designated_category you have decided")
         print("  3. Run ./scripts/apply-review")
         print(f"  4. Rerun ./scripts/import-prism --instance {shlex.quote(args.instance)}")
         print("Do not rerun import-prism before apply-review; it regenerates review.json.")

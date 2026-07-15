@@ -11,7 +11,7 @@ from pathlib import Path, PurePosixPath
 from typing import Any
 
 
-GROUPS = {"core", "client-optional", "server-required", "server-curated"}
+GROUPS = {"core", "client", "server"}
 LOADERS = {"forge", "neoforge", "fabric-loader", "quilt-loader"}
 
 
@@ -53,9 +53,9 @@ def load_profile(path: Path) -> tuple[str, list[str]]:
 
 
 def file_environment(group: str) -> dict[str, str]:
-    if group == "client-optional":
+    if group == "client":
         return {"client": "required", "server": "unsupported"}
-    if group in {"server-required", "server-curated"}:
+    if group == "server":
         return {"client": "unsupported", "server": "required"}
     return {"client": "required", "server": "required"}
 

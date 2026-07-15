@@ -268,8 +268,8 @@ def propose(inspection: Inspection) -> Proposal:
     if inspection.prism_side and inspection.runtime_confidence == "high":
         prism_groups = {
             "both": "core",
-            "client": "client-optional",
-            "server": "server-curated",
+            "client": "client",
+            "server": "server",
         }
         return Proposal(
             prism_groups[inspection.prism_side],
@@ -292,11 +292,9 @@ def propose(inspection: Inspection) -> Proposal:
 
     group: str | None = None
     if runtime == "client" and client_side in {"required", "optional"}:
-        group = "client-optional"
-    elif runtime == "server" and server_side == "required":
-        group = "server-required"
-    elif runtime == "server" and server_side == "optional":
-        group = "server-curated"
+        group = "client"
+    elif runtime == "server" and server_side in {"required", "optional"}:
+        group = "server"
     elif runtime == "both" and client_side == "required" and server_side == "required":
         group = "core"
 
@@ -305,9 +303,9 @@ def propose(inspection: Inspection) -> Proposal:
 
     proposed: str | None = None
     if client_side in {"required", "optional"} and server_side == "unsupported":
-        proposed = "client-optional"
+        proposed = "client"
     elif server_side in {"required", "optional"} and client_side == "unsupported":
-        proposed = "server-required" if server_side == "required" else "server-curated"
+        proposed = "server"
     elif client_side == "required" and server_side == "required":
         proposed = "core"
     return Proposal(proposed, "medium", "Platform policy lacks authoritative matching runtime metadata")
