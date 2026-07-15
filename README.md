@@ -69,8 +69,8 @@ Classify entries using a Modrinth project ID, filename, or exact mod name:
 ```json
 {
   "core": ["jtmvUHXj"],
-  "client-optional": ["BetterF3"],
-  "server-curated": ["AI-Improvements-1.21-0.5.3.jar"],
+  "client": ["BetterF3"],
+  "server": ["AI-Improvements-1.21-0.5.3.jar"],
   "ignored": []
 }
 ```
@@ -79,25 +79,28 @@ Then rerun the import. Existing decisions continue to apply to later exports.
 
 ## Apply review decisions
 
-Entries that need review contain an editable `designated_profile` property and
+Entries that need review contain an editable `designated_category` property and
 the complete list of allowed values:
 
 ```json
 {
   "name": "Example Mod",
   "project_id": "example-project-id",
-  "designated_profile": null,
-  "allowed_profiles": [
+  "designated_category": null,
+  "allowed_categories": [
     "core",
-    "client-optional",
-    "server-required",
-    "server-curated",
+    "client",
+    "server",
     "ignored"
   ]
 }
 ```
 
-Set `designated_profile` to one allowed string, save the file, and apply all
+Detailed confidence, reasoning, warnings, and evidence are written separately
+to `pack/catalog/classification-report.txt`. This generated diagnostic file is
+ignored by Git and is empty when no entries need review.
+
+Set `designated_category` to one allowed string, save the file, and apply all
 completed decisions:
 
 ```bash

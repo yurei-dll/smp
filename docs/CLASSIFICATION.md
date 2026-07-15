@@ -55,21 +55,21 @@ The final groups are:
 
 | Group | Runtime placement | Pack policy |
 | --- | --- | --- |
-| `core` | Client and server | Required on both |
-| `client-optional` | Client | Optional client enhancement |
-| `server-required` | Dedicated server | Required server component |
-| `server-curated` | Dedicated server | Selected server QoL or performance mod |
+| `core` | Client and server | Shared pack foundation |
+| `client` | Client | Client-only addition |
+| `server` | Dedicated server | Server-only addition |
 | `ignored` | Neither output | Deliberately excluded |
 
 Repository policy treats every client-only mod as optional. A mod required for
-the shared client/server experience belongs in `core`; there is intentionally
-no separate `client-required` group. Prism-index sides are mapped as follows:
+the shared client/server experience belongs in `core`. Server-only mods share
+one category regardless of whether they are functional or performance-focused.
+Prism-index sides are mapped as follows:
 
 | Prism side | Default group |
 | --- | --- |
 | `both` | `core` |
-| `client` | `client-optional` |
-| `server` | `server-curated` |
+| `client` | `client` |
+| `server` | `server` |
 
 These defaults are high-confidence pack-policy decisions when Prism metadata
 and JAR runtime evidence do not conflict. Manual overrides still take
@@ -156,7 +156,7 @@ Every proposed classification should include its evidence and confidence:
 ```json
 {
   "filename": "example.jar",
-  "proposed_group": "client-optional",
+  "proposed_group": "client",
   "confidence": "medium",
   "evidence": [
     {
@@ -224,7 +224,7 @@ without reopening the JAR manually:
     "name": "Example",
     "project_id": "example-project-id",
     "classification": {
-      "proposed_group": "client-optional",
+      "proposed_group": "client",
       "confidence": "medium",
       "reason": "Client-only platform declaration lacks exact-file confirmation",
       "evidence": [],
@@ -238,7 +238,7 @@ The reviewer adds a stable selector to the desired group:
 
 ```json
 {
-  "client-optional": ["example-project-id"]
+  "client": ["example-project-id"]
 }
 ```
 
