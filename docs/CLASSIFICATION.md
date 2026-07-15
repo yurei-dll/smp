@@ -1,8 +1,7 @@
 # Mod identification and classification
 
-This document defines the intended classification process for mods imported
-from Prism Launcher. It is a design contract for future scanner work; the
-current importer does not inspect JAR contents or query mod platforms yet.
+This document defines the classification process for mods read directly from
+a Prism Launcher instance.
 
 ## Objective
 
@@ -10,7 +9,7 @@ The importer must minimize repetitive manual work without silently putting a
 mod into an unsafe pack. Its normal workflow is:
 
 ```text
-Prism JSON export + instance mods directory
+             named Prism instance
                     |
                     v
          collect identification evidence
@@ -57,24 +56,36 @@ The final groups are:
 | Group | Runtime placement | Pack policy |
 | --- | --- | --- |
 | `core` | Client and server | Required on both |
-| `client-required` | Client | Required for this client pack |
 | `client-optional` | Client | Optional client enhancement |
 | `server-required` | Dedicated server | Required server component |
 | `server-curated` | Dedicated server | Selected server QoL or performance mod |
 | `ignored` | Neither output | Deliberately excluded |
 
+Repository policy treats every client-only mod as optional. A mod required for
+the shared client/server experience belongs in `core`; there is intentionally
+no separate `client-required` group. Prism-index sides are mapped as follows:
+
+| Prism side | Default group |
+| --- | --- |
+| `both` | `core` |
+| `client` | `client-optional` |
+| `server` | `server-curated` |
+
+These defaults are high-confidence pack-policy decisions when Prism metadata
+and JAR runtime evidence do not conflict. Manual overrides still take
+precedence.
+
 ## Evidence collection
 
-The future importer should accept the exported list and the Prism instance's
-actual mod directory:
+The importer accepts a Prism instance name and locates its mod directory:
 
 ```bash
-./scripts/import-prism prism-mods.json \
-  --mods-dir ~/.local/share/PrismLauncher/instances/example/minecraft/mods
+./scripts/import-prism --instance "example"
 ```
 
-It should match each export entry to a JAR by exact filename, calculate a file
-hash, and inspect the JAR as a ZIP archive without executing its code.
+It matches Prism's `.index/*.pw.toml` records to JARs by exact filename,
+calculates file hashes, and inspects JARs as ZIP archives without executing
+their code. Unmanaged top-level JARs are included using their filenames.
 
 ### Fabric
 
@@ -126,6 +137,10 @@ file/version where possible and record:
 Platform metadata is valuable but external. Project-wide declarations may not
 accurately describe every historical file, so exact-file evidence is stronger
 than a project-level statement.
+
+Platform enrichment must be explicit opt-in because exact-file resolution
+sends a hash derived from a local JAR to an external service. Local JAR and
+Prism-index inspection must remain the default behavior.
 
 ### Bytecode and naming heuristics
 
@@ -208,10 +223,13 @@ without reopening the JAR manually:
     "filename": "example.jar",
     "name": "Example",
     "project_id": "example-project-id",
-    "proposed_group": "client-optional",
-    "confidence": "medium",
-    "reason": "Client-only platform declaration lacks exact-file confirmation",
-    "evidence": []
+    "classification": {
+      "proposed_group": "client-optional",
+      "confidence": "medium",
+      "reason": "Client-only platform declaration lacks exact-file confirmation",
+      "evidence": [],
+      "warnings": []
+    }
   }
 ]
 ```
