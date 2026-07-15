@@ -105,6 +105,9 @@ completed decisions:
 ./scripts/import-prism --instance "Create Mega Pack"
 ```
 
+When review entries remain, `import-prism` prints these steps in the terminal
+and warns not to rerun the import before applying the edited review file.
+
 The apply command validates every decision before writing, adds stable project
 IDs to `pack/classification-overrides.json`, and removes applied entries from
 the review list. Entries whose designation remains JSON `null` are untouched.

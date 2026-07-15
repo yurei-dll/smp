@@ -7,6 +7,7 @@ import argparse
 import configparser
 import json
 import os
+import shlex
 import sys
 import tomllib
 from dataclasses import dataclass, replace
@@ -385,6 +386,15 @@ def main(argv: list[str] | None = None) -> int:
     included = sum(len(entries) for entries in categorized.values())
     print(f"Imported {len(mods)} unique mods: {included} classified, {len(review)} need review")
     print(f"Wrote categorized lists to {args.output_dir}")
+    if review:
+        review_path = args.output_dir / "review.json"
+        print()
+        print("Review required:")
+        print(f"  1. Edit {review_path}")
+        print("  2. Set each designated_profile you have decided")
+        print("  3. Run ./scripts/apply-review")
+        print(f"  4. Rerun ./scripts/import-prism --instance {shlex.quote(args.instance)}")
+        print("Do not rerun import-prism before apply-review; it regenerates review.json.")
     return 0
 
 
