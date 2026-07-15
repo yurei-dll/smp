@@ -5,6 +5,7 @@ from pathlib import Path
 
 from src.prism_list_builder import (
     ImportErrorDetail,
+    apply_source_overrides,
     load_overrides,
     load_prism_instance,
     resolve_instance,
@@ -58,6 +59,29 @@ version = "version"
             self.assertEqual(managed.project_id, "project")
             self.assertEqual(managed.platform_version_id, "version")
             self.assertEqual(managed.declared_side, "client")
+
+    def test_applies_download_source_to_unmanaged_mod(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "sources.json"
+            path.write_text(
+                json.dumps(
+                    {
+                        "unmanaged.jar": {
+                            "source": "modrinth",
+                            "project_id": "project",
+                            "platform_version_id": "version",
+                            "download_url": "https://cdn.modrinth.com/data/project/version/unmanaged.jar",
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            from src.prism_list_builder import Mod
+
+            mods = [Mod("unmanaged.jar", "Unmanaged", "", "unknown", None, None)]
+            updated = apply_source_overrides(mods, path)
+            self.assertEqual(updated[0].project_id, "project")
+            self.assertTrue(updated[0].download_url.startswith("https://cdn.modrinth.com/"))
 
 
 if __name__ == "__main__":

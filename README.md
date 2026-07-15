@@ -12,8 +12,11 @@ pack/
   catalog/                       Generated categorized mod lists
   profiles/                      Pack composition definitions
   classification-overrides.json Persistent human classification decisions
+  source-overrides.json         Download metadata for unmanaged JARs
 scripts/import-prism             Local command-line entrypoint
 scripts/apply-review             Persist completed review decisions
+scripts/build-mrpack             Build one Modrinth pack profile
+scripts/build-all                Build all three profiles locally
 src/prism_list_builder.py        Import and classification implementation
 tests/                           Offline unit tests
 ```
@@ -104,6 +107,16 @@ IDs to `pack/classification-overrides.json`, and removes applied entries from
 the review list. Entries whose designation remains JSON `null` are untouched.
 
 ## Development
+
+Build the three `.mrpack` variants locally:
+
+```bash
+./scripts/build-all
+```
+
+Pack identity, Minecraft, and loader versions live in `pack/pack.json`. GitHub
+Actions runs the same builder for pull requests and `main`; tags matching `v*`
+also publish all three files on a GitHub Release.
 
 ```bash
 python3 -m unittest discover -s tests -v
