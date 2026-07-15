@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
   "counts": {
-    "core": 80,
-    "client-optional": 25,
+    "core": 68,
+    "client-optional": 22,
     "server-required": 0,
-    "server-curated": 6,
-    "review": 0
+    "server-curated": 1,
+    "review": 15
   },
-  "total_included": 111,
-  "total_review": 0
+  "total_included": 91,
+  "total_review": 15
 }

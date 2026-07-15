@@ -1,13 +1,29 @@
 {
   "core": [
     "4Al4H3t9",
-    "DistantHorizons-3.2.0-b-1.21.1.jar"
+    "4VYO7ir0",
+    "D53qveoj",
+    "DistantHorizons-3.2.0-b-1.21.1.jar",
+    "LrYZi08Q",
+    "Pp78cYOP",
+    "ZYgyPyfq"
   ],
   "client-optional": [
+    "AtT9wm5O",
+    "bpRHnWUb",
+    "EyJFr6Vw",
+    "ldWHqZwQ",
+    "MPCX6s5C",
+    "tr2Mv6ke",
+    "wbWoo11W",
     "XH8cnjHW",
-    "yBW8D80W"
+    "yBW8D80W",
+    "ZcR9weSm"
   ],
-  "server-required": [],
+  "server-required": [
+    "2BwBOmBQ",
+    "o1C1Dkj5"
+  ],
   "server-curated": [
     "8oi3bsk5"
   ],
