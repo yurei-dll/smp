@@ -5,7 +5,7 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 output_dir="${1:-$repo_root/dist}"
 version="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["version"])' "$repo_root/pack/pack.json")"
 
-for profile in client-minimal client-full server; do
+for profile in core client server; do
   "$repo_root/scripts/build-mrpack" \
     --profile "$repo_root/pack/profiles/$profile.json" \
     --output "$output_dir/smp-$version-$profile.mrpack"

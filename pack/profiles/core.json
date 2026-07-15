@@ -1,0 +1,4 @@
+{
+  "name": "SMP Core",
+  "include": ["core"]
+}

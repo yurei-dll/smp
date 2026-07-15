@@ -123,6 +123,12 @@ Build the three `.mrpack` variants locally:
 ./scripts/build-all
 ```
 
+The build and release names match the catalog categories:
+
+- `core`: shared foundation only;
+- `client`: core plus client additions; and
+- `server`: core plus server additions.
+
 Pack identity, Minecraft, and loader versions live in `pack/pack.json`. GitHub
 Actions runs the same builder for pull requests and `main`. A tag matching the
 exact pack version publishes an immutable GitHub Release:

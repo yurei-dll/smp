@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 
-PROFILES = ("client-minimal", "client-full", "server")
+PROFILES = ("core", "client", "server")
 
 
 class ReleaseError(ValueError):

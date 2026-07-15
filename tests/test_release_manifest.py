@@ -38,8 +38,8 @@ class ReleaseManifestTests(unittest.TestCase):
             self.assertEqual(manifest["release"], "1.2.3")
             self.assertEqual(manifest["repository"], "owner/repo")
             self.assertEqual(set(manifest["packs"]), set(PROFILES))
-            self.assertEqual(manifest["packs"]["client-full"]["format"], "mrpack")
-            self.assertEqual(len(manifest["packs"]["client-full"]["sha256"]), 64)
+            self.assertEqual(manifest["packs"]["client"]["format"], "mrpack")
+            self.assertEqual(len(manifest["packs"]["client"]["sha256"]), 64)
             self.assertEqual(len((dist / "SHA256SUMS").read_text().splitlines()), 3)
 
     def test_rejects_tag_version_mismatch(self):
