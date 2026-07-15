@@ -1,27 +1,45 @@
 #!/usr/bin/env python3
-"""Normalize and classify JSON mod lists exported by Prism Launcher."""
+"""Inspect and classify the mods installed in a Prism Launcher instance."""
 
 from __future__ import annotations
 
 import argparse
+import configparser
 import json
-import re
+import os
 import sys
+import tomllib
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
-from urllib.parse import urlparse
+
+try:
+    from .mod_classifier import (
+        Inspection,
+        ModrinthClient,
+        add_modrinth_evidence,
+        inspect_mod,
+        inspection_dict,
+        propose,
+    )
+except ImportError:  # Direct execution through scripts/import-prism.
+    from mod_classifier import (
+        Inspection,
+        ModrinthClient,
+        add_modrinth_evidence,
+        inspect_mod,
+        inspection_dict,
+        propose,
+    )
 
 
 GROUPS = (
     "core",
-    "client-required",
     "client-optional",
     "server-required",
     "server-curated",
 )
 OVERRIDE_GROUPS = (*GROUPS, "ignored")
-MODRINTH_PATH = re.compile(r"^/(?:mod|project)/([^/]+)/?$")
 
 
 class ImportErrorDetail(ValueError):
@@ -36,6 +54,8 @@ class Mod:
     version: str
     source: str | None
     project_id: str | None
+    declared_side: str | None = None
+    platform_version_id: str | None = None
 
     @property
     def identity(self) -> str:
@@ -60,58 +80,117 @@ class Mod:
             result["source"] = self.source
         if self.project_id:
             result["project_id"] = self.project_id
+        if self.platform_version_id:
+            result["platform_version_id"] = self.platform_version_id
+        if self.declared_side:
+            result["declared_side"] = self.declared_side
         return result
 
 
-def _required_string(entry: dict[str, Any], field: str, location: str) -> str:
-    value = entry.get(field)
-    if not isinstance(value, str) or not value.strip():
-        raise ImportErrorDetail(f"{location}: {field!r} must be a non-empty string")
-    return value.strip()
+def prism_roots(explicit_root: Path | None = None) -> list[Path]:
+    if explicit_root:
+        return [explicit_root.expanduser()]
+    home = Path.home()
+    candidates = [
+        home / ".local/share/PrismLauncher",
+        home / ".var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher",
+        home / "snap/prismlauncher/common/PrismLauncher",
+        home / "Library/Application Support/PrismLauncher",
+    ]
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        candidates.append(Path(appdata) / "PrismLauncher")
+    return candidates
 
 
-def platform_identity(url: str) -> tuple[str | None, str | None]:
-    parsed = urlparse(url)
-    host = (parsed.hostname or "").casefold()
-    if host in {"modrinth.com", "www.modrinth.com"}:
-        match = MODRINTH_PATH.match(parsed.path)
-        if match:
-            return "modrinth", match.group(1)
-    return None, None
+def _instance_display_name(path: Path) -> str:
+    config = configparser.ConfigParser(interpolation=None)
+    try:
+        config.read(path / "instance.cfg", encoding="utf-8")
+        return config.get("General", "name", fallback=path.name)
+    except (OSError, configparser.Error):
+        return path.name
 
 
-def parse_mod(entry: Any, location: str) -> Mod:
-    if not isinstance(entry, dict):
-        raise ImportErrorDetail(f"{location}: expected an object")
-    filename = _required_string(entry, "filename", location)
-    name = _required_string(entry, "name", location)
-    url = _required_string(entry, "url", location)
-    version = _required_string(entry, "version", location)
-    source, project_id = platform_identity(url)
-    return Mod(filename, name, url, version, source, project_id)
+def resolve_instance(name: str, explicit_root: Path | None = None) -> Path:
+    wanted = name.casefold()
+    matches: list[Path] = []
+    searched: list[Path] = []
+    for root in prism_roots(explicit_root):
+        instances = root / "instances"
+        searched.append(instances)
+        if not instances.is_dir():
+            continue
+        for candidate in instances.iterdir():
+            if not candidate.is_dir() or not (candidate / "instance.cfg").is_file():
+                continue
+            if candidate.name.casefold() == wanted or _instance_display_name(candidate).casefold() == wanted:
+                matches.append(candidate)
+    unique = sorted(set(matches))
+    if not unique:
+        locations = ", ".join(str(path) for path in searched)
+        raise ImportErrorDetail(f"Prism instance {name!r} was not found under: {locations}")
+    if len(unique) > 1:
+        raise ImportErrorDetail(
+            f"Prism instance name {name!r} is ambiguous: {', '.join(str(path) for path in unique)}"
+        )
+    return unique[0]
 
 
-def load_prism_lists(paths: Iterable[Path]) -> list[Mod]:
+def _mod_from_packwiz(path: Path) -> Mod:
+    try:
+        metadata = tomllib.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, tomllib.TOMLDecodeError) as exc:
+        raise ImportErrorDetail(f"cannot parse Prism metadata {path}: {exc}") from exc
+    filename = metadata.get("filename")
+    name = metadata.get("name")
+    if not isinstance(filename, str) or not filename:
+        raise ImportErrorDetail(f"{path}: missing non-empty filename")
+    if not isinstance(name, str) or not name:
+        name = Path(filename).stem
+    update = metadata.get("update")
+    modrinth = update.get("modrinth") if isinstance(update, dict) else None
+    project_id = modrinth.get("mod-id") if isinstance(modrinth, dict) else None
+    version_id = modrinth.get("version") if isinstance(modrinth, dict) else None
+    download = metadata.get("download")
+    download_url = download.get("url", "") if isinstance(download, dict) else ""
+    side = metadata.get("side")
+    return Mod(
+        filename=filename,
+        name=name,
+        url=f"https://modrinth.com/mod/{project_id}" if project_id else str(download_url),
+        version=str(version_id or "unknown"),
+        source="modrinth" if project_id else None,
+        project_id=project_id if isinstance(project_id, str) else None,
+        declared_side=side if side in {"client", "server", "both"} else None,
+        platform_version_id=version_id if isinstance(version_id, str) else None,
+    )
+
+
+def load_prism_instance(instance: Path) -> tuple[list[Mod], Path]:
+    mods_dir = instance / "minecraft/mods"
+    if not mods_dir.is_dir():
+        raise ImportErrorDetail(f"Prism instance has no mods directory: {mods_dir}")
     mods: dict[str, Mod] = {}
-    for path in paths:
-        try:
-            raw = json.loads(path.read_text(encoding="utf-8"))
-        except FileNotFoundError as exc:
-            raise ImportErrorDetail(f"input does not exist: {path}") from exc
-        except json.JSONDecodeError as exc:
-            raise ImportErrorDetail(f"{path}:{exc.lineno}:{exc.colno}: invalid JSON: {exc.msg}") from exc
-        if not isinstance(raw, list):
-            raise ImportErrorDetail(f"{path}: top-level JSON value must be a list")
-        for index, entry in enumerate(raw):
-            mod = parse_mod(entry, f"{path}[{index}]")
-            previous = mods.get(mod.identity)
-            if previous and previous != mod:
-                raise ImportErrorDetail(
-                    f"conflicting entries for {mod.identity}: "
-                    f"{previous.filename!r} and {mod.filename!r}"
-                )
-            mods[mod.identity] = mod
-    return sorted(mods.values(), key=lambda mod: (mod.name.casefold(), mod.filename.casefold()))
+    index_dir = mods_dir / ".index"
+    if index_dir.is_dir():
+        for metadata_path in sorted(index_dir.glob("*.pw.toml")):
+            mod = _mod_from_packwiz(metadata_path)
+            if (mods_dir / mod.filename).is_file():
+                mods[mod.filename.casefold()] = mod
+
+    for jar in sorted(mods_dir.glob("*.jar")):
+        if jar.name.casefold() not in mods:
+            mods[jar.name.casefold()] = Mod(
+                filename=jar.name,
+                name=jar.stem,
+                url="",
+                version="unknown",
+                source=None,
+                project_id=None,
+            )
+    result = sorted(mods.values(), key=lambda mod: (mod.name.casefold(), mod.filename.casefold()))
+    return result, mods_dir
 
 
 def load_overrides(path: Path) -> dict[str, set[str]]:
@@ -145,35 +224,66 @@ def load_overrides(path: Path) -> dict[str, set[str]]:
     return overrides
 
 
-def classify(mods: Iterable[Mod], overrides: dict[str, set[str]]) -> tuple[dict[str, list[Mod]], list[Mod]]:
-    categorized = {group: [] for group in GROUPS}
-    review: list[Mod] = []
+def classify_with_evidence(
+    mods: Iterable[Mod],
+    overrides: dict[str, set[str]],
+    inspections: dict[str, Inspection],
+) -> tuple[dict[str, list[tuple[Mod, dict[str, Any]]]], list[tuple[Mod, dict[str, Any]]]]:
+    categorized: dict[str, list[tuple[Mod, dict[str, Any]]]] = {group: [] for group in GROUPS}
+    review: list[tuple[Mod, dict[str, Any]]] = []
     for mod in mods:
+        inspection = inspections[mod.identity]
+        proposal = propose(inspection)
+        details = inspection_dict(inspection, proposal)
         matched = [group for group in OVERRIDE_GROUPS if mod.selectors() & overrides[group]]
         if len(matched) > 1:
             raise ImportErrorDetail(
                 f"{mod.name!r} matches selectors in multiple groups: {', '.join(matched)}"
             )
-        if not matched:
-            review.append(mod)
-        elif matched[0] != "ignored":
-            categorized[matched[0]].append(mod)
+        if matched:
+            group = matched[0]
+            details["classification_source"] = "manual-override"
+            details["confidence"] = "high"
+            details["proposed_group"] = group
+            details["reason"] = "Matched persistent manual classification override"
+            if group != "ignored":
+                categorized[group].append((mod, details))
+        elif proposal.confidence == "high" and proposal.group:
+            details["classification_source"] = "automatic"
+            categorized[proposal.group].append((mod, details))
+        else:
+            details["classification_source"] = "review"
+            review.append((mod, details))
     return categorized, review
 
 
-def write_outputs(output_dir: Path, categorized: dict[str, list[Mod]], review: list[Mod]) -> None:
+def write_evidence_outputs(
+    output_dir: Path,
+    categorized: dict[str, list[tuple[Mod, dict[str, Any]]]],
+    review: list[tuple[Mod, dict[str, Any]]],
+) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
-    payloads = {group: mods for group, mods in categorized.items()}
+    payloads = {group: entries for group, entries in categorized.items()}
     payloads["review"] = review
-    for group, mods in payloads.items():
-        target = output_dir / f"{group}.json"
-        content = [mod.as_dict() for mod in mods]
-        target.write_text(json.dumps(content, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
+    for group, entries in payloads.items():
+        content = []
+        for mod, classification in entries:
+            item = mod.as_dict()
+            if group == "review":
+                item["_instructions"] = (
+                    "Set designated_profile to one allowed_profiles value, then run ./scripts/apply-review"
+                )
+                item["designated_profile"] = None
+                item["allowed_profiles"] = [*GROUPS, "ignored"]
+            item["classification"] = classification
+            content.append(item)
+        (output_dir / f"{group}.json").write_text(
+            json.dumps(content, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
     manifest = {
-        "schema_version": 1,
-        "counts": {group: len(mods) for group, mods in payloads.items()},
-        "total_included": sum(len(mods) for mods in categorized.values()),
+        "schema_version": 2,
+        "counts": {group: len(entries) for group, entries in payloads.items()},
+        "total_included": sum(len(entries) for entries in categorized.values()),
         "total_review": len(review),
     }
     (output_dir / "manifest.json").write_text(
@@ -184,7 +294,16 @@ def write_outputs(output_dir: Path, categorized: dict[str, list[Mod]], review: l
 def parser() -> argparse.ArgumentParser:
     repo_root = Path(__file__).resolve().parents[1]
     result = argparse.ArgumentParser(description=__doc__)
-    result.add_argument("inputs", nargs="+", type=Path, help="Prism JSON mod list(s)")
+    result.add_argument(
+        "--instance",
+        required=True,
+        help="Prism instance folder or display name; reads its JARs and .index metadata directly",
+    )
+    result.add_argument(
+        "--prism-root",
+        type=Path,
+        help="Prism data root when it is not in a standard location",
+    )
     result.add_argument(
         "--overrides",
         type=Path,
@@ -197,16 +316,30 @@ def parser() -> argparse.ArgumentParser:
         default=repo_root / "pack/catalog",
         help="directory for categorized JSON lists",
     )
+    result.add_argument(
+        "--modrinth",
+        action="store_true",
+        help="query Modrinth with JAR SHA-512 hashes to enrich classification evidence",
+    )
     return result
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
-        mods = load_prism_lists(args.inputs)
+        instance = resolve_instance(args.instance, args.prism_root)
+        mods, mods_dir = load_prism_instance(instance)
+        print(f"Using Prism instance: {instance}")
         overrides = load_overrides(args.overrides)
-        categorized, review = classify(mods, overrides)
-        write_outputs(args.output_dir, categorized, review)
+        client = ModrinthClient() if args.modrinth else None
+        inspections: dict[str, Inspection] = {}
+        for mod in mods:
+            inspection = inspect_mod(mod, mods_dir)
+            if client:
+                add_modrinth_evidence(mod, inspection, client)
+            inspections[mod.identity] = inspection
+        categorized, review = classify_with_evidence(mods, overrides, inspections)
+        write_evidence_outputs(args.output_dir, categorized, review)
     except (ImportErrorDetail, OSError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2
@@ -219,4 +352,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
