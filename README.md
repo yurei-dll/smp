@@ -1,5 +1,7 @@
 # SMP modpack builder
 
+[![Build modpacks](https://github.com/yurei-dll/smp/actions/workflows/build-modpacks.yml/badge.svg)](https://github.com/yurei-dll/smp/actions/workflows/build-modpacks.yml)
+
 This repository turns a Prism Launcher instance into stable, reviewable inputs
 for several Minecraft pack profiles. It reads Prism's packwiz index, inspects
 installed JAR metadata, applies persistent classifications, and writes one
