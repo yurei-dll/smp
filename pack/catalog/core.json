@@ -1,0 +1,4487 @@
+[
+  {
+    "filename": "accessories-neoforge-1.1.0-beta.52+1.21.1.jar",
+    "name": "Accessories",
+    "url": "https://modrinth.com/mod/jtmvUHXj",
+    "version": "CtRim6mz",
+    "source": "modrinth",
+    "project_id": "jtmvUHXj",
+    "platform_version_id": "CtRim6mz",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "1f2559a1362978ec168c7e366f278f3ec6305800b264841f1d1a573a93b3951441f35e6dfcbc19e7edd9d52e28ac5a2fbf49dfe2d1997b48270cd577a92af82a",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "1f2559a1362978ec168c7e366f278f3ec6305800b264841f1d1a573a93b3951441f35e6dfcbc19e7edd9d52e28ac5a2fbf49dfe2d1997b48270cd577a92af82a",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "accessories"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "accessories": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "accessories_compat_layer-neoforge-0.1.10+1.21.1.jar",
+    "name": "Accessories Compatibility Layer",
+    "url": "https://modrinth.com/mod/ySnjMzLg",
+    "version": "6ocwvkgG",
+    "source": "modrinth",
+    "project_id": "ySnjMzLg",
+    "platform_version_id": "6ocwvkgG",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "d53e77c2650c74beb90c242eae85413d6607a4253ef55cddb4e98565786f3591c4d27f5316ecf6b9d9f1878368e0c132f670f95d7e9a9a6eb0967be297b4b5e5",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d53e77c2650c74beb90c242eae85413d6607a4253ef55cddb4e98565786f3591c4d27f5316ecf6b9d9f1878368e0c132f670f95d7e9a9a6eb0967be297b4b5e5",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "accessories_compat_layer",
+            "tclayer",
+            "cclayer"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "accessories_compat_layer": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "accessorify-2.4.0-beta.3+1.21.1-neoforge.jar",
+    "name": "Accessorify",
+    "url": "https://modrinth.com/mod/CVRzrXGP",
+    "version": "mhfNJkui",
+    "source": "modrinth",
+    "project_id": "CVRzrXGP",
+    "platform_version_id": "mhfNJkui",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "08e00966d0118b2e9e9a7a1b9f2ead284ddf59ecea1dc1b4d294c9d4f9c1984b591c337baf37d508be8a9a519f8fe2125bf3941ca6009127b82dfacd23ac4d3e",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "08e00966d0118b2e9e9a7a1b9f2ead284ddf59ecea1dc1b4d294c9d4f9c1984b591c337baf37d508be8a9a519f8fe2125bf3941ca6009127b82dfacd23ac4d3e",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "accessorify"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "accessorify": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "almostunified-neoforge-1.21.1-1.3.0.jar",
+    "name": "Almost Unified",
+    "url": "https://modrinth.com/mod/sdaSaQEz",
+    "version": "ZSRQ3k7q",
+    "source": "modrinth",
+    "project_id": "sdaSaQEz",
+    "platform_version_id": "ZSRQ3k7q",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "9f517d364d2bb2339ee37a601527515fac3c35542439c9ff48de0b1bbf56df734841acf75a4ccf7750501005ebe4a5e9a01391760d5e19fdfa996e074fe3be9b",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "9f517d364d2bb2339ee37a601527515fac3c35542439c9ff48de0b1bbf56df734841acf75a4ccf7750501005ebe4a5e9a01391760d5e19fdfa996e074fe3be9b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "almostunified"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "almostunified": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "appleskin-neoforge-mc1.21-3.0.7.jar",
+    "name": "AppleSkin",
+    "url": "https://modrinth.com/mod/EsAfCjCV",
+    "version": "kztxpjAA",
+    "source": "modrinth",
+    "project_id": "EsAfCjCV",
+    "platform_version_id": "kztxpjAA",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "03a94fe4143250b8e80abe97770918ba0af1265110bb73c25444674f9cdf86164464332a913cbac29af82d8ed02dce6ef19bbb62fced92620817a7ec1e761b71",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "03a94fe4143250b8e80abe97770918ba0af1265110bb73c25444674f9cdf86164464332a913cbac29af82d8ed02dce6ef19bbb62fced92620817a7ec1e761b71",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "appleskin"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "appleskin": [
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "architectury-13.0.8-neoforge.jar",
+    "name": "Architectury API",
+    "url": "https://modrinth.com/mod/lhGA9TYQ",
+    "version": "ZxYGwlk0",
+    "source": "modrinth",
+    "project_id": "lhGA9TYQ",
+    "platform_version_id": "ZxYGwlk0",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "65e3664953385d880320dd6bb818bcb96d361c07c53e2a7f65e64c6a47720ee26b233224ae9cad465ef0b2bbaefdaf30fb0175a983cecd91de058817d6fcf57e",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "architectury"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "architectury": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "balm-neoforge-1.21.1-21.0.55.jar",
+    "name": "Balm",
+    "url": "https://modrinth.com/mod/MBAkmtvl",
+    "version": "rrxxIYvJ",
+    "source": "modrinth",
+    "project_id": "MBAkmtvl",
+    "platform_version_id": "rrxxIYvJ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "c73c2bf311c4799528bb436a1c16f22386d1c357e2836d8568800d9c7a0da30a18adbd134cd1dac856aba05081291cb54fa343abd8c71b6e668ee917cac98310",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "c73c2bf311c4799528bb436a1c16f22386d1c357e2836d8568800d9c7a0da30a18adbd134cd1dac856aba05081291cb54fa343abd8c71b6e668ee917cac98310",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "balm"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "balm": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "bettercombat-neoforge-2.3.0+1.21.1.jar",
+    "name": "Better Combat",
+    "url": "https://modrinth.com/mod/5sy6g3kz",
+    "version": "zjX3qpLx",
+    "source": "modrinth",
+    "project_id": "5sy6g3kz",
+    "platform_version_id": "zjX3qpLx",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "f862774eb596d2cba3d83e929ebaeba6ba7fa87abbd6aa94f8e63557b5f60dd85d9f92996134ea67c3d8cfe7671a758cc7a5b5df07c79f12139ab10ebe048be2",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "f862774eb596d2cba3d83e929ebaeba6ba7fa87abbd6aa94f8e63557b5f60dd85d9f92996134ea67c3d8cfe7671a758cc7a5b5df07c79f12139ab10ebe048be2",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "bettercombat"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "bettercombat": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "betterdays-1.21.1-3.3.6.2-NEOFORGE.jar",
+    "name": "Better Days",
+    "url": "https://modrinth.com/mod/tPLE214j",
+    "version": "O3sUSfWA",
+    "source": "modrinth",
+    "project_id": "tPLE214j",
+    "platform_version_id": "O3sUSfWA",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "009068bb0d2acd7e24f9dec506362da68c967f83054f187e6146d4e86a8e1cd178fd999904f8d37fd483c85af9075e453c7f723a1f426d3748e07cd850ccbfc4",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "009068bb0d2acd7e24f9dec506362da68c967f83054f187e6146d4e86a8e1cd178fd999904f8d37fd483c85af9075e453c7f723a1f426d3748e07cd850ccbfc4",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "betterdays"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "betterdays": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar",
+    "name": "Biomes O' Plenty",
+    "url": "https://modrinth.com/mod/HXF82T3G",
+    "version": "8vIRXPpR",
+    "source": "modrinth",
+    "project_id": "HXF82T3G",
+    "platform_version_id": "8vIRXPpR",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "a238c6dbeccf9bb8f7144601e8f8fd7973d76c60344b50670141e76f49f886f6f89487eb81749dfca7c36166831924052106884a9f8dc18893261476a34d4b32",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "a238c6dbeccf9bb8f7144601e8f8fd7973d76c60344b50670141e76f49f886f6f89487eb81749dfca7c36166831924052106884a9f8dc18893261476a34d4b32",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "biomesoplenty"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "biomesoplenty": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "carryon-neoforge-1.21.1-2.2.2.11.jar",
+    "name": "Carry On",
+    "url": "https://modrinth.com/mod/joEfVgkn",
+    "version": "79dpvD0M",
+    "source": "modrinth",
+    "project_id": "joEfVgkn",
+    "platform_version_id": "79dpvD0M",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "0a31ef680544d85c5842a54a2c61f4ead14776de69a97f36438db4076ee364cf852045d7bcd22efc269591d63fe4e2ee86bb73def795262617641b0060cb4f31",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0a31ef680544d85c5842a54a2c61f4ead14776de69a97f36438db4076ee364cf852045d7bcd22efc269591d63fe4e2ee86bb73def795262617641b0060cb4f31",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "carryon"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "carryon": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+    "name": "CERBON's API",
+    "url": "https://modrinth.com/mod/GkIc6rRo",
+    "version": "5wbxkBQ1",
+    "source": "modrinth",
+    "project_id": "GkIc6rRo",
+    "platform_version_id": "5wbxkBQ1",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6bd24b718d532cdd0c49150eefc223b4d7c3550bbc81d5c65ed84b704bf3c8e20d3cb3524082688383cc4aba38e190921976b056b84d5755670c5399a7c7e627",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6bd24b718d532cdd0c49150eefc223b4d7c3550bbc81d5c65ed84b704bf3c8e20d3cb3524082688383cc4aba38e190921976b056b84d5755670c5399a7c7e627",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "cerbons_api"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "cerbons_api": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "cloth-config-15.0.140-neoforge.jar",
+    "name": "Cloth Config API",
+    "url": "https://modrinth.com/mod/9s6osm5g",
+    "version": "izKINKFg",
+    "source": "modrinth",
+    "project_id": "9s6osm5g",
+    "platform_version_id": "izKINKFg",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "aaf9b010955b8cd294e5a92f069985b18729fd5e2cf22d351f1dff9680f15488688803ec41e77e941cbde130ceb535014ca4c868047d80ab69c2d508e216654d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "cloth_config"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "cloth_config": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create-1.21.1-6.0.8.jar",
+    "name": "Create",
+    "url": "https://modrinth.com/mod/LNytGWDc",
+    "version": "88L641Un",
+    "source": "modrinth",
+    "project_id": "LNytGWDc",
+    "platform_version_id": "88L641Un",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "cb3ffee35ee2b2ab212fb4649e75ccfcb8e99ae954cf0b0251591062e3f200e5e639e8f40d7af7c79b7dc71164a027b0e6fbcd5c0bafe2da88f888fc3ffd254c",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "cb3ffee35ee2b2ab212fb4649e75ccfcb8e99ae954cf0b0251591062e3f200e5e639e8f40d7af7c79b7dc71164a027b0e6fbcd5c0bafe2da88f888fc3ffd254c",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create": [
+              "BOTH",
+              "BOTH",
+              "CLIENT",
+              "BOTH",
+              "CLIENT",
+              "BOTH",
+              "CLIENT",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "createdeco-2.1.2-1.21.1-neo.jar",
+    "name": "Create Deco",
+    "url": "https://modrinth.com/mod/sMvUb4Rb",
+    "version": "k95JcfbJ",
+    "source": "modrinth",
+    "project_id": "sMvUb4Rb",
+    "platform_version_id": "k95JcfbJ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "c600f15ce173b01f86aed12d40d97c11298d63c0f707f83e5a1f14129cefd45c15ea28642b23b7847033fdd3d36c61b0a13db6e96b060d55ea778178103b4b09",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "c600f15ce173b01f86aed12d40d97c11298d63c0f707f83e5a1f14129cefd45c15ea28642b23b7847033fdd3d36c61b0a13db6e96b060d55ea778178103b4b09",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "createdeco"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "createdeco": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_ltab-3.4.3.jar",
+    "name": "Create Let The Adventure Begin",
+    "url": "https://modrinth.com/mod/fUa6OtBG",
+    "version": "sqg6t1e2",
+    "source": "modrinth",
+    "project_id": "fUa6OtBG",
+    "platform_version_id": "sqg6t1e2",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "3106e67835cdc369f40aa0d89e78415088f5db3ebaa3b749087bf88e663ee8bef06c38a94bd05d0ae087dc81061e396128233ed3cf86f32eb7a1a86a944a0b4f",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "3106e67835cdc369f40aa0d89e78415088f5db3ebaa3b749087bf88e663ee8bef06c38a94bd05d0ae087dc81061e396128233ed3cf86f32eb7a1a86a944a0b4f",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "*",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "create_ltab",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "3.3.0",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_ltab"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_ltab"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_mechanical_spawner-1.21.1-1.3.0-6.0.8.jar",
+    "name": "Create Mechanical Spawner",
+    "url": "https://modrinth.com/mod/T1hmeGi9",
+    "version": "WlsTiEVK",
+    "source": "modrinth",
+    "project_id": "T1hmeGi9",
+    "platform_version_id": "WlsTiEVK",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "5a642e6b13783c490e0d0f5c6da9c456f0fdb2edbda3e257145c57b301ce21e77ef8bd9a35eb9c3e829fe9b18cd5b46e870a67541b85f9ebb8b87da2f2756314",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "5a642e6b13783c490e0d0f5c6da9c456f0fdb2edbda3e257145c57b301ce21e77ef8bd9a35eb9c3e829fe9b18cd5b46e870a67541b85f9ebb8b87da2f2756314",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_mechanical_spawner"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_mechanical_spawner": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_more_automation-0.5.2-neoforge-1.21.1.jar",
+    "name": "Create More Automation",
+    "url": "https://modrinth.com/mod/7iJ65LNI",
+    "version": "en1TN4J7",
+    "source": "modrinth",
+    "project_id": "7iJ65LNI",
+    "platform_version_id": "en1TN4J7",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "01df8317a0316f70b85b3cf0fc5cd7925117367e72de4a43e0f8699590aff727d5bf98656271b61b644c3b92a19d0d4142d1739b54f7bb0a54ff910af32ea3f9",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "01df8317a0316f70b85b3cf0fc5cd7925117367e72de4a43e0f8699590aff727d5bf98656271b61b644c3b92a19d0d4142d1739b54f7bb0a54ff910af32ea3f9",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_more_automation"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_more_automation": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sliceanddice-forge-4.2.2.jar",
+    "name": "Create Slice & Dice",
+    "url": "https://modrinth.com/mod/GmjmRQ0A",
+    "version": "DwseRoo3",
+    "source": "modrinth",
+    "project_id": "GmjmRQ0A",
+    "platform_version_id": "DwseRoo3",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6bc2bb30ae523b1b522e3fdd4bd6437e9f69074a4101b0d43bac3867b0e37ee60eb05cdaee55fea434444323f5c1fc4b3cab9bca0b6fda53b3685291b8b734ef",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6bc2bb30ae523b1b522e3fdd4bd6437e9f69074a4101b0d43bac3867b0e37ee60eb05cdaee55fea434444323f5c1fc4b3cab9bca0b6fda53b3685291b8b734ef",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sliceanddice"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sliceanddice": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+    "name": "Create: Aquatic Ambitions",
+    "url": "https://modrinth.com/mod/9SyaPzp7",
+    "version": "cgOQIktB",
+    "source": "modrinth",
+    "project_id": "9SyaPzp7",
+    "platform_version_id": "cgOQIktB",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "0abb46b82f323055c9579feda4d6e63a0f3d0905e31a349bd19f9e4b843f6e6ba6a25c98ea76154fe060f975ace49b3a0fdc3d609eec91384b9550de99977745",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0abb46b82f323055c9579feda4d6e63a0f3d0905e31a349bd19f9e4b843f6e6ba6a25c98ea76154fe060f975ace49b3a0fdc3d609eec91384b9550de99977745",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_aquatic_ambitions"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_aquatic_ambitions": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create-dragons-plus-1.8.5.jar",
+    "name": "Create: Dragons Plus",
+    "url": "https://modrinth.com/mod/dzb1a5WV",
+    "version": "SzMfOokp",
+    "source": "modrinth",
+    "project_id": "dzb1a5WV",
+    "platform_version_id": "SzMfOokp",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "59bafc422073a2928b59e5d39d5011f0d9aac22d790c475e5795219560f22a99916e0126b842864335a959dbaa238ee2e9bdaae32862b6a971919d04b19d1949",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "59bafc422073a2928b59e5d39d5011f0d9aac22d790c475e5795219560f22a99916e0126b842864335a959dbaa238ee2e9bdaae32862b6a971919d04b19d1949",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_dragons_plus"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_dragons_plus": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create-enchantment-industry-2.2.5b.jar",
+    "name": "Create: Enchantment Industry",
+    "url": "https://modrinth.com/mod/JWGBpFUP",
+    "version": "RhbACzlM",
+    "source": "modrinth",
+    "project_id": "JWGBpFUP",
+    "platform_version_id": "RhbACzlM",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "eca05bb24d3d13a8420428d17717db18f63e36b844f6ab21ddd2c26d147f3a6203fc7daf1919d78cc89a6d60d98c6a7d895919e648588546dc6289dec0584604",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "eca05bb24d3d13a8420428d17717db18f63e36b844f6ab21ddd2c26d147f3a6203fc7daf1919d78cc89a6d60d98c6a7d895919e648588546dc6289dec0584604",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_enchantment_industry"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_enchantment_industry": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "createfood-neoforge-1.21.1-2.0.0-beta-3.jar",
+    "name": "Create: Food",
+    "url": "https://modrinth.com/mod/4HnO3el1",
+    "version": "Sd9pbQKb",
+    "source": "modrinth",
+    "project_id": "4HnO3el1",
+    "platform_version_id": "Sd9pbQKb",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "138a415ce7885bb1797a25176d38b9e5414c8ebc58782b9c49ff471afef100138f609e0c8dc61d11db00e7552a93101eb2e0af2b53c1ef8d5dc8efd4b6106803",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "138a415ce7885bb1797a25176d38b9e5414c8ebc58782b9c49ff471afef100138f609e0c8dc61d11db00e7552a93101eb2e0af2b53c1ef8d5dc8efd4b6106803",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "createfood"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "createfood": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_mobile_packages-1.21.1-0.6.0-Beta-03.jar",
+    "name": "Create: Mobile Packages",
+    "url": "https://modrinth.com/mod/1vXRfEHZ",
+    "version": "asvFQAYD",
+    "source": "modrinth",
+    "project_id": "1vXRfEHZ",
+    "platform_version_id": "asvFQAYD",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "12f89c912f7ce361860f86f5d4d5f3c312655854496075d3f479e0a5e09e2b8c53aa94d53200b4a2f2afd806b2935f5f2064f5b8fead49a627834eb99a69adf4",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "12f89c912f7ce361860f86f5d4d5f3c312655854496075d3f479e0a5e09e2b8c53aa94d53200b4a2f2afd806b2935f5f2064f5b8fead49a627834eb99a69adf4",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_mobile_packages"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_mobile_packages": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create-new-age-1.1.7+neoforge-mc1.21.1.jar",
+    "name": "Create: New Age",
+    "url": "https://modrinth.com/mod/FTeXqI9v",
+    "version": "ZyNyY0OA",
+    "source": "modrinth",
+    "project_id": "FTeXqI9v",
+    "platform_version_id": "ZyNyY0OA",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "60ed318e4da1542567e540f84f34e3bcf0414b8b9ad6d9ece429af3e5b89ab25f5ffc2b797f90c0f7c6b1bf8446ce5a0b7188ca9da754cb8872575422047c8a4",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "60ed318e4da1542567e540f84f34e3bcf0414b8b9ad6d9ece429af3e5b89ab25f5ffc2b797f90c0f7c6b1bf8446ce5a0b7188ca9da754cb8872575422047c8a4",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_new_age"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "MATCH_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_new_age": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_sophback_compat-1.0.jar",
+    "name": "Create: Sophisticated Backpacks Compat",
+    "url": "https://modrinth.com/mod/BAEkFrvn",
+    "version": "MGpIgh9e",
+    "source": "modrinth",
+    "project_id": "BAEkFrvn",
+    "platform_version_id": "MGpIgh9e",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "93f18ab387f7c889e9e16d9df6089ec54a1db8e1be8a3404ddeb825dc8f6ccbc736e920a1a5f854951d0f6a7eaf105b936629d6b20d976d6160d3a1e22dae09d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "93f18ab387f7c889e9e16d9df6089ec54a1db8e1be8a3404ddeb825dc8f6ccbc736e920a1a5f854951d0f6a7eaf105b936629d6b20d976d6160d3a1e22dae09d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_sophback_compat"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_sophback_compat": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_structures_arise-167.40.39 Release-neoforge-1.21.1.jar",
+    "name": "Create: Structures Arise",
+    "url": "https://modrinth.com/mod/9enMEvoc",
+    "version": "Ih26I7lQ",
+    "source": "modrinth",
+    "project_id": "9enMEvoc",
+    "platform_version_id": "Ih26I7lQ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "da07ac785e86b9f5aaa1aa8d3da80c80904ee7bbe8d590e737baf0b2fe4499fafa082f515de0d7244212e2e4813f05709933ed194815cb6db1ed35e653680297",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "da07ac785e86b9f5aaa1aa8d3da80c80904ee7bbe8d590e737baf0b2fe4499fafa082f515de0d7244212e2e4813f05709933ed194815cb6db1ed35e653680297",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "*",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "create_structures_arise",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "158.31.30",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "entrypoints",
+          "value": [
+            "client",
+            "main"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_structures_arise"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_structures_arise": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "tfmg-1.2.0.jar",
+    "name": "Create: The Factory Must Grow",
+    "url": "https://modrinth.com/mod/USgVjXsk",
+    "version": "uDi14nbt",
+    "source": "modrinth",
+    "project_id": "USgVjXsk",
+    "platform_version_id": "uDi14nbt",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "03f2ad28c78ef565ef203c5650280acb0b846d6105dc5c84b2e31187f501be5c59733ef3adb623fbaa32c3233d113d608905259128661ffab06b26b270b1b38c",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "03f2ad28c78ef565ef203c5650280acb0b846d6105dc5c84b2e31187f501be5c59733ef3adb623fbaa32c3233d113d608905259128661ffab06b26b270b1b38c",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "tfmg"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "tfmg": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "create_ultimate_factory-2.2.1-neoforge-1.21.1.jar",
+    "name": "Create: Ultimate Factory [Forge/Fabric/NeoForge]",
+    "url": "https://modrinth.com/mod/N9QToVpw",
+    "version": "hZoEJMVk",
+    "source": "modrinth",
+    "project_id": "N9QToVpw",
+    "platform_version_id": "hZoEJMVk",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "c619b353f8c7d8ab25f60c40c2959f9f68390fe110e1ab9510191462061e6facbb6216888b2a1d58c350408ad3acda8e34edf6d9ab4642b78418ea83f143e986",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "c619b353f8c7d8ab25f60c40c2959f9f68390fe110e1ab9510191462061e6facbb6216888b2a1d58c350408ad3acda8e34edf6d9ab4642b78418ea83f143e986",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_ultimate_factory"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_ultimate_factory": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "create_ultimate_factory"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "create_ultimate_factory": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "critical_strike-neoforge-1.0.4+1.21.1.jar",
+    "name": "Critical Strike",
+    "url": "https://modrinth.com/mod/ilvNBzFn",
+    "version": "2LZ76MSH",
+    "source": "modrinth",
+    "project_id": "ilvNBzFn",
+    "platform_version_id": "2LZ76MSH",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "80b98158f2ad35c26890282907f0ad720fb2378539ae383ecf69e3c267a3c4cb492703e0c1ec34ba6eaa87e2e4c9b17838955bcc8bf12b475fbf80d35a9efdb5",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "80b98158f2ad35c26890282907f0ad720fb2378539ae383ecf69e3c267a3c4cb492703e0c1ec34ba6eaa87e2e4c9b17838955bcc8bf12b475fbf80d35a9efdb5",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "critical_strike"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "critical_strike": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "DistantHorizons-3.2.0-b-1.21.1.jar",
+    "name": "DistantHorizons-3.2.0-b-1.21.1",
+    "url": "",
+    "version": "unknown",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha512": "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e9b2c82a10875db94fa576571c661c5ee16d2f567bd8a93d6f255fd22",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e9b2c82a10875db94fa576571c661c5ee16d2f567bd8a93d6f255fd22",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "environment",
+          "value": "*",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "id",
+          "value": "distanthorizons",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "version",
+          "value": "3.2.0-b",
+          "strength": "high"
+        },
+        {
+          "source": "fabric.mod.json",
+          "field": "entrypoints",
+          "value": [
+            "client",
+            "server"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "distanthorizons"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "distanthorizons": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "dynamictrees-neoforge-1.21.1-1.6.0-BETA03.jar",
+    "name": "Dynamic Trees",
+    "url": "https://modrinth.com/mod/vdjF5PL5",
+    "version": "2NXaE6II",
+    "source": "modrinth",
+    "project_id": "vdjF5PL5",
+    "platform_version_id": "2NXaE6II",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "47712a02d45d2b358a92f11213335551be243ff56a49c91aa1974d21b70e335cbebae945d070a73eeea05ca3700cdefad361aed81c7ea714b7463ddb8e2ef5b5",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "47712a02d45d2b358a92f11213335551be243ff56a49c91aa1974d21b70e335cbebae945d070a73eeea05ca3700cdefad361aed81c7ea714b7463ddb8e2ef5b5",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dynamictrees"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "dynamictrees": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "DynamicTreesPlus-neoforge-1.21.1-1.3.1-BETA01.jar",
+    "name": "Dynamic Trees +",
+    "url": "https://modrinth.com/mod/qaO9Dqpu",
+    "version": "g9FoBmM0",
+    "source": "modrinth",
+    "project_id": "qaO9Dqpu",
+    "platform_version_id": "g9FoBmM0",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "781b059303d1bdd4ba2db67a7441b467f69854efc61d2a07de58e0171cd8ef4ae61f2aaa8a4d6624a4a6ca15d2927d7e2ea23ac012111617d4f0188a21184549",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "781b059303d1bdd4ba2db67a7441b467f69854efc61d2a07de58e0171cd8ef4ae61f2aaa8a4d6624a4a6ca15d2927d7e2ea23ac012111617d4f0188a21184549",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dynamictreesplus"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "dynamictreesplus": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "dtbop-3.4.0.jar",
+    "name": "Dynamic Trees - Biomes O' Plenty",
+    "url": "https://modrinth.com/mod/8QHjGuhP",
+    "version": "YZ8VDP0n",
+    "source": "modrinth",
+    "project_id": "8QHjGuhP",
+    "platform_version_id": "YZ8VDP0n",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6aa2c96eaad69ba271bd90d394129e8afa02e23d0b0f07704f7c2e781cde741dbaab87cd059fc3a99bf9bc0a3fa0c3da37f7b4aae0c5f551fc7e206a401f750b",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6aa2c96eaad69ba271bd90d394129e8afa02e23d0b0f07704f7c2e781cde741dbaab87cd059fc3a99bf9bc0a3fa0c3da37f7b4aae0c5f551fc7e206a401f750b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dtbop"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "dtbop": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "dtterralith-1.3.0-BETA01.jar",
+    "name": "Dynamic Trees - Terralith",
+    "url": "https://modrinth.com/mod/o8eM9Cnp",
+    "version": "n374tVwc",
+    "source": "modrinth",
+    "project_id": "o8eM9Cnp",
+    "platform_version_id": "n374tVwc",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "2c37368e792aee1158aa051732ce9fd64e20b7d66f905b62799c680661a2faa4c6465fc66ebfb356bd9fe9d2b694bf330dcc421ebd5a51c970f98b338baa9200",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "2c37368e792aee1158aa051732ce9fd64e20b7d66f905b62799c680661a2faa4c6465fc66ebfb356bd9fe9d2b694bf330dcc421ebd5a51c970f98b338baa9200",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "dtterralith"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "dtterralith": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "emi-1.1.22+1.21.1+neoforge.jar",
+    "name": "EMI",
+    "url": "https://modrinth.com/mod/fRiHVvU7",
+    "version": "ouSj7NfF",
+    "source": "modrinth",
+    "project_id": "fRiHVvU7",
+    "platform_version_id": "ouSj7NfF",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emi"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emi": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "emi_loot-0.7.8+1.21+neoforge.jar",
+    "name": "EMI Loot",
+    "url": "https://modrinth.com/mod/qbbO7Jns",
+    "version": "LNBoaKYt",
+    "source": "modrinth",
+    "project_id": "qbbO7Jns",
+    "platform_version_id": "LNBoaKYt",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "0fa7122459043b1d692e3c0ec2b712f5af743cfc21ebc51c4a147d2908fa7ca4eba9b1236ecdbbff1dbcdc360e7a4effd68169d76aa285ae5fa952e25d1de156",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0fa7122459043b1d692e3c0ec2b712f5af743cfc21ebc51c4a147d2908fa7ca4eba9b1236ecdbbff1dbcdc360e7a4effd68169d76aa285ae5fa952e25d1de156",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emi_loot"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emi_loot": [
+              "BOTH",
+              "BOTH",
+              "CLIENT",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "emi_ores-1.2+1.21.1+neoforge.jar",
+    "name": "EMI Ores",
+    "url": "https://modrinth.com/mod/sG4TqDb8",
+    "version": "1jY6MIrK",
+    "source": "modrinth",
+    "project_id": "sG4TqDb8",
+    "platform_version_id": "1jY6MIrK",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "emi_ores"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "emi_ores": [
+              "BOTH",
+              "BOTH",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "explosionoverhaul-neoforge-1.1.0.jar",
+    "name": "Explosion Overhaul",
+    "url": "https://modrinth.com/mod/SAez8T3s",
+    "version": "RmS9fbl3",
+    "source": "modrinth",
+    "project_id": "SAez8T3s",
+    "platform_version_id": "RmS9fbl3",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "cba341362214aea46d2997566b9a4c9d7fac30226b2db11be2413ab9800b6c43e730871bb438503ed8d365b2ec93e7df869fb10617235c144a54169b9fd81f81",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "cba341362214aea46d2997566b9a4c9d7fac30226b2db11be2413ab9800b6c43e730871bb438503ed8d365b2ec93e7df869fb10617235c144a54169b9fd81f81",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "explosionoverhaul"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "explosionoverhaul": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "FarmersDelight-1.21.1-1.2.9.jar",
+    "name": "Farmer's Delight",
+    "url": "https://modrinth.com/mod/R2OftAxM",
+    "version": "opCbq7uB",
+    "source": "modrinth",
+    "project_id": "R2OftAxM",
+    "platform_version_id": "opCbq7uB",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "00a7db6776e6aa305aa7511c267866b43cf044c154f3825d344ef2685758049486a84a2f1f19920e3cd663ad7971fda326c9a501f8352abe506a170dc05f7104",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "00a7db6776e6aa305aa7511c267866b43cf044c154f3825d344ef2685758049486a84a2f1f19920e3cd663ad7971fda326c9a501f8352abe506a170dc05f7104",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "farmersdelight"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "farmersdelight": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "ferritecore-7.0.2-neoforge.jar",
+    "name": "FerriteCore",
+    "url": "https://modrinth.com/mod/uXXizFIs",
+    "version": "CnpoQxCx",
+    "source": "modrinth",
+    "project_id": "uXXizFIs",
+    "platform_version_id": "CnpoQxCx",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "ferritecore"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "ferritecore": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar",
+    "name": "Forgified Fabric API",
+    "url": "https://modrinth.com/mod/Aqlf1Shp",
+    "version": "9uOfdsZC",
+    "source": "modrinth",
+    "project_id": "Aqlf1Shp",
+    "platform_version_id": "9uOfdsZC",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "b412ba686f327ec501f58f2335667de02eea0f6350f78a48ca0faaec9015d0e142058c2fc25aba35485096434a01e09a3b94fa930f44977142bd200bb606a2b3",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b412ba686f327ec501f58f2335667de02eea0f6350f78a48ca0faaec9015d0e142058c2fc25aba35485096434a01e09a3b94fa930f44977142bd200bb606a2b3",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "fabric_api",
+            "forgified_fabric_api"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "fabric_api": [
+              "BOTH",
+              "BOTH"
+            ],
+            "forgified_fabric_api": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "fzzy_config-0.7.4+1.21+neoforge.jar",
+    "name": "Fzzy Config",
+    "url": "https://modrinth.com/mod/hYykXjDp",
+    "version": "Mo5GSG4l",
+    "source": "modrinth",
+    "project_id": "hYykXjDp",
+    "platform_version_id": "Mo5GSG4l",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "b689aa793cfa63598cbad6fa137f91376e039c8abbc64acdc53fe26da75574b88214a313eaa6f40f72262a999c254c0cecea3be84f086ec4416a52dd56bc002f",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b689aa793cfa63598cbad6fa137f91376e039c8abbc64acdc53fe26da75574b88214a313eaa6f40f72262a999c254c0cecea3be84f086ec4416a52dd56bc002f",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "fzzy_config"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "fzzy_config": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "gaboulibs-neoforge-1.4.jar",
+    "name": "Gabou's Libs",
+    "url": "https://modrinth.com/mod/N8aGZtvj",
+    "version": "LsfPosIY",
+    "source": "modrinth",
+    "project_id": "N8aGZtvj",
+    "platform_version_id": "LsfPosIY",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "154a34ebd6b57fb66514ad090de3696d79982191cf818e365a989f0e6a75d1200c62ec730d351b649932e11850c753909d6ff66d899ca20de41e77e3d4076cb3",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "154a34ebd6b57fb66514ad090de3696d79982191cf818e365a989f0e6a75d1200c62ec730d351b649932e11850c753909d6ff66d899ca20de41e77e3d4076cb3",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "gaboulibs"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "gaboulibs": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "geckolib-neoforge-1.21.1-4.8.2.jar",
+    "name": "Geckolib",
+    "url": "https://modrinth.com/mod/8BmcQJ2H",
+    "version": "RVIo5f6E",
+    "source": "modrinth",
+    "project_id": "8BmcQJ2H",
+    "platform_version_id": "RVIo5f6E",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6b70d7dc11adb68cd590110c6b29de39eaae40b55f934026288a2018f6d529a2579124d0596825126db4a499f0dfc26248e4005a452bc1b0d4d05c0279e33602",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6b70d7dc11adb68cd590110c6b29de39eaae40b55f934026288a2018f6d529a2579124d0596825126db4a499f0dfc26248e4005a452bc1b0d4d05c0279e33602",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "geckolib"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "geckolib": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
+    "name": "GlitchCore",
+    "url": "https://modrinth.com/mod/s3dmwKy5",
+    "version": "8wmCpbQ2",
+    "source": "modrinth",
+    "project_id": "s3dmwKy5",
+    "platform_version_id": "8wmCpbQ2",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "008ec969716ffa2a45bf74f8c44d2c28e16558688a71806670e307d29fa76a82daf4d2f990a4964345228a7ba77bdb8592d1572c723b7b06c8f9c3ffae63acdb",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "008ec969716ffa2a45bf74f8c44d2c28e16558688a71806670e307d29fa76a82daf4d2f990a4964345228a7ba77bdb8592d1572c723b7b06c8f9c3ffae63acdb",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "glitchcore"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "glitchcore": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "golemoverhaul-neoforge-1.21.1-1.0.3.jar",
+    "name": "Golem Overhaul",
+    "url": "https://modrinth.com/mod/qEYs2G9A",
+    "version": "wlxd41bD",
+    "source": "modrinth",
+    "project_id": "qEYs2G9A",
+    "platform_version_id": "wlxd41bD",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "65ffb076a5848e367c81bc8817bfa114cc6d93799c57823a9d5b96b2e1bf0d66442344c698f4b7103a555dddd6ac48284f902a54e2f5b00e14117bae3f4a32d7",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "65ffb076a5848e367c81bc8817bfa114cc6d93799c57823a9d5b96b2e1bf0d66442344c698f4b7103a555dddd6ac48284f902a54e2f5b00e14117bae3f4a32d7",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "golemoverhaul"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "golemoverhaul": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+    "name": "Handcrafted",
+    "url": "https://modrinth.com/mod/pJmCFF0p",
+    "version": "JfqnpP2Z",
+    "source": "modrinth",
+    "project_id": "pJmCFF0p",
+    "platform_version_id": "JfqnpP2Z",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "4ff5fb2aa9582b886d03f647fe9b8c12a828d29a1787e9c9b463be18192ea798e6a4ac83479623042791bce0bacbf6e3e2c2e9ef086640aeeb6970d3404e7ee4",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "4ff5fb2aa9582b886d03f647fe9b8c12a828d29a1787e9c9b463be18192ea798e6a4ac83479623042791bce0bacbf6e3e2c2e9ef086640aeeb6970d3404e7ee4",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "handcrafted"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "handcrafted": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "Jade-1.21.1-NeoForge-15.10.3.jar",
+    "name": "Jade 🔍",
+    "url": "https://modrinth.com/mod/nvQzSEkH",
+    "version": "43sRR8f6",
+    "source": "modrinth",
+    "project_id": "nvQzSEkH",
+    "platform_version_id": "43sRR8f6",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "351926187c564d1f2bae2f084c77f80fe850dc90837153ef01506c049f16b02307196ed383ae25cd334530106aa741b12dd90f5e1b205439fde2b74d09274bc0",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "351926187c564d1f2bae2f084c77f80fe850dc90837153ef01506c049f16b02307196ed383ae25cd334530106aa741b12dd90f5e1b205439fde2b74d09274bc0",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "jade"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "jade": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "Kiwi-1.21.1-NeoForge-15.8.2.jar",
+    "name": "Kiwi 🥝",
+    "url": "https://modrinth.com/mod/ufdDoWPd",
+    "version": "eCzvKS7q",
+    "source": "modrinth",
+    "project_id": "ufdDoWPd",
+    "platform_version_id": "eCzvKS7q",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "25a745c24d3baa3c24e7840ff85cdbd0b10cdbee194f5d41e28d419595b67b7175a4a648a6b141acf11c6c8137e0f73e0fd903d7d51d8d29e675eb9734314f14",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "25a745c24d3baa3c24e7840ff85cdbd0b10cdbee194f5d41e28d419595b67b7175a4a648a6b141acf11c6c8137e0f73e0fd903d7d51d8d29e675eb9734314f14",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "kiwi"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "kotlinforforge-5.10.0-all.jar",
+    "name": "Kotlin for Forge",
+    "url": "https://modrinth.com/mod/ordsPcFz",
+    "version": "pp2cY80Q",
+    "source": "modrinth",
+    "project_id": "ordsPcFz",
+    "platform_version_id": "pp2cY80Q",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "0c7a23c6b8017c9a24694bc6c0dbcb3d9b4ec630ae2ff965c0ee478ca881ad70f4755388678430b0175c3abe18c66fcbc25ed9be6f600bcdc083743eaecbfc35",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "0c7a23c6b8017c9a24694bc6c0dbcb3d9b4ec630ae2ff965c0ee478ca881ad70f4755388678430b0175c3abe18c66fcbc25ed9be6f600bcdc083743eaecbfc35",
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "lithium-neoforge-0.15.1+mc1.21.1.jar",
+    "name": "Lithium",
+    "url": "https://modrinth.com/mod/gvQqBUqZ",
+    "version": "G5SDYehn",
+    "source": "modrinth",
+    "project_id": "gvQqBUqZ",
+    "platform_version_id": "G5SDYehn",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "1975e74294798fe173d944d3e0b174b39dc8b7fa177340acb71c8a85772932b82c9406099c854d45fa4f71b80dbbb73602fd7cc36d1374dfc8402e4a30ccfe3b",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "1975e74294798fe173d944d3e0b174b39dc8b7fa177340acb71c8a85772932b82c9406099c854d45fa4f71b80dbbb73602fd7cc36d1374dfc8402e4a30ccfe3b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "lithium"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "lithium": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "lootr-neoforge-1.21-1.10.35.96.jar",
+    "name": "Lootr",
+    "url": "https://modrinth.com/mod/EltpO5cN",
+    "version": "OzMefC2m",
+    "source": "modrinth",
+    "project_id": "EltpO5cN",
+    "platform_version_id": "OzMefC2m",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "8839e820256f54c53340a5e6708f46044ac6806772b8f68d35d41b7885d0ec891b0e795999fd4e830fa8f4a393ff60fe7070024755ebebf5fb6d9a87edfa29e5",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "8839e820256f54c53340a5e6708f46044ac6806772b8f68d35d41b7885d0ec891b0e795999fd4e830fa8f4a393ff60fe7070024755ebebf5fb6d9a87edfa29e5",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "lootr"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "lootr": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "mru-1.0.19+LTS+1.21.1+neoforge.jar",
+    "name": "M.R.U",
+    "url": "https://modrinth.com/mod/SNVQ2c0g",
+    "version": "qYqVf5jP",
+    "source": "modrinth",
+    "project_id": "SNVQ2c0g",
+    "platform_version_id": "qYqVf5jP",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "c0b39727c6d4e312cc6a6e6e5137149ecf907f3c9a518313e4188a05c8301b80c088fb62f7096831e9aa1026fc95a09d79b99fc43456f8da2a1ee36e9a86154d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "c0b39727c6d4e312cc6a6e6e5137149ecf907f3c9a518313e4188a05c8301b80c088fb62f7096831e9aa1026fc95a09d79b99fc43456f8da2a1ee36e9a86154d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "mru"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "mru": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "mechanicals-1.21.1-1.1.0.jar",
+    "name": "Mechanicals Lib",
+    "url": "https://modrinth.com/mod/ProvjTA7",
+    "version": "z9HvpJMU",
+    "source": "modrinth",
+    "project_id": "ProvjTA7",
+    "platform_version_id": "z9HvpJMU",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "6638860a9273ff656095a5c7de0c029ae2eb48928fcabe7b0f240e74d9bfa28d9c8da04f08cefdbe3feba682efbd46f887a80474b54c2d698f643db9f4477807",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "6638860a9273ff656095a5c7de0c029ae2eb48928fcabe7b0f240e74d9bfa28d9c8da04f08cefdbe3feba682efbd46f887a80474b54c2d698f643db9f4477807",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "mechanicals"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "mechanicals": [
+              "BOTH",
+              "BOTH",
+              "CLIENT",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "modernfix-neoforge-5.25.1+mc1.21.1.jar",
+    "name": "ModernFix",
+    "url": "https://modrinth.com/mod/nmDcB62a",
+    "version": "8Be8uJW6",
+    "source": "modrinth",
+    "project_id": "nmDcB62a",
+    "platform_version_id": "8Be8uJW6",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "e82ba385f2f4737bc5817db449c9e0082ec86e710265f6e991df562da8dbf2f27b1472c62f7f74ff9c38d51b49a5cc4acd8680d3aa00a266c10826a54624ca84",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "e82ba385f2f4737bc5817db449c9e0082ec86e710265f6e991df562da8dbf2f27b1472c62f7f74ff9c38d51b49a5cc4acd8680d3aa00a266c10826a54624ca84",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "modernfix"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "modernfix": [
+              "BOTH",
+              "BOTH",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "notenoughanimations-neoforge-1.11.1-mc1.21.1.jar",
+    "name": "NotEnoughAnimations",
+    "url": "https://modrinth.com/mod/MPCX6s5C",
+    "version": "PJ0Q8Tw8",
+    "source": "modrinth",
+    "project_id": "MPCX6s5C",
+    "platform_version_id": "PJ0Q8Tw8",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "edd7092e12c97909c9615dec59eb8d21a2e4d7a71105bc90c646db0868d386a4a95dc0c283ddb2524541021fad8f9cbd29a6086560b5e668452bacc7b401cfab",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "edd7092e12c97909c9615dec59eb8d21a2e4d7a71105bc90c646db0868d386a4a95dc0c283ddb2524541021fad8f9cbd29a6086560b5e668452bacc7b401cfab",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "notenoughanimations"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "notenoughanimations": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "notenoughanimations"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "notenoughanimations": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+    "name": "oωo (owo-lib)",
+    "url": "https://modrinth.com/mod/ccKDOlHs",
+    "version": "NMCHU6DZ",
+    "source": "modrinth",
+    "project_id": "ccKDOlHs",
+    "platform_version_id": "NMCHU6DZ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "owo"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "owo": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "petrolsparts-1.21.1-1.2.7.jar",
+    "name": "Petrol's Parts",
+    "url": "https://modrinth.com/mod/AN0CZD9P",
+    "version": "uI6g3SiQ",
+    "source": "modrinth",
+    "project_id": "AN0CZD9P",
+    "platform_version_id": "uI6g3SiQ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "d27afdb9eee5d71551ec23a10c93fc9f44042bbcad86661be43dd46f5382f3acaf539f1fb7177be43149869f9fb53eb2d301720caff60c3b6368d6527a76dd27",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "d27afdb9eee5d71551ec23a10c93fc9f44042bbcad86661be43dd46f5382f3acaf539f1fb7177be43149869f9fb53eb2d301720caff60c3b6368d6527a76dd27",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "petrolsparts"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "petrolsparts": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "petrolpark-1.21.1-1.4.24.jar",
+    "name": "Petrolpark's Library",
+    "url": "https://modrinth.com/mod/ik2WZkTZ",
+    "version": "TlWbWev2",
+    "source": "modrinth",
+    "project_id": "ik2WZkTZ",
+    "platform_version_id": "TlWbWev2",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "ee76c766c0f0c8bf043f9befb60797be24b70d677cc331e971017966a182bfe0613c7f309d43b533c330c60a61163e6fd6e47959dc99f2f6c5c85caece59daf7",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "ee76c766c0f0c8bf043f9befb60797be24b70d677cc331e971017966a182bfe0613c7f309d43b533c330c60a61163e6fd6e47959dc99f2f6c5c85caece59daf7",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "petrolpark"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "petrolpark": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "player-animation-lib-forge-2.0.1+1.21.1.jar",
+    "name": "playerAnimator",
+    "url": "https://modrinth.com/mod/gedNE4y2",
+    "version": "q60QWuOK",
+    "source": "modrinth",
+    "project_id": "gedNE4y2",
+    "platform_version_id": "q60QWuOK",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "1b6fdeec973d36fed687d27af05c1ea8467564b21b8f884a0de8cf97e8a8f91d5e7b0cffaa3a687a7341f2357dae8c47e989e2bba44cd3fbb9d90726207f427b",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "1b6fdeec973d36fed687d27af05c1ea8467564b21b8f884a0de8cf97e8a8f91d5e7b0cffaa3a687a7341f2357dae8c47e989e2bba44cd3fbb9d90726207f427b",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "playeranimator"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "playeranimator": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+    "name": "Resourceful Config",
+    "url": "https://modrinth.com/mod/M1953qlQ",
+    "version": "lSbyRD6v",
+    "source": "modrinth",
+    "project_id": "M1953qlQ",
+    "platform_version_id": "lSbyRD6v",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "8e4ccc37732b3f5190e7e98df34dbc1339fe614494fcabf1aeaeab9ad8e5993522964b51be31882000c08c48a6d0096b5458364415bb81f2b2b775a7daf2eb87",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "8e4ccc37732b3f5190e7e98df34dbc1339fe614494fcabf1aeaeab9ad8e5993522964b51be31882000c08c48a6d0096b5458364415bb81f2b2b775a7daf2eb87",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "resourcefulconfig"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "resourcefulconfig": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "resourcefullib-neoforge-1.21-3.0.12.jar",
+    "name": "Resourceful Lib",
+    "url": "https://modrinth.com/mod/G1hIVOrD",
+    "version": "x99nCLTm",
+    "source": "modrinth",
+    "project_id": "G1hIVOrD",
+    "platform_version_id": "x99nCLTm",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "a9d20e345faa9bcb297bd95ac9524205834804d1bb13518397dd4f7f62b352b08c3339ee7f7870d3669078ceeb33d5c31ea527aecce4b31d62ec1ff7d8b562c8",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "a9d20e345faa9bcb297bd95ac9524205834804d1bb13518397dd4f7f62b352b08c3339ee7f7870d3669078ceeb33d5c31ea527aecce4b31d62ec1ff7d8b562c8",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "resourcefullib"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "resourcefullib": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
+    "name": "Serene Seasons",
+    "url": "https://modrinth.com/mod/e0bNACJD",
+    "version": "SPj5bJoM",
+    "source": "modrinth",
+    "project_id": "e0bNACJD",
+    "platform_version_id": "SPj5bJoM",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "8d6c2712019da586c9f3a1372f2951173cd5f7a821645ffa03e4448e56f6b277aab0651307e1d4d9e0944cb02d32b2caff581bde912cb21fc6fd7b7d84655b8c",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "8d6c2712019da586c9f3a1372f2951173cd5f7a821645ffa03e4448e56f6b277aab0651307e1d4d9e0944cb02d32b2caff581bde912cb21fc6fd7b7d84655b8c",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sereneseasons"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sereneseasons": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "NeoForge-Version-Serene Seasons Plus-1.21.1-4.2.3.jar",
+    "name": "Serene Seasons Plus",
+    "url": "https://modrinth.com/mod/4Al4H3t9",
+    "version": "QiOlBGcz",
+    "source": "modrinth",
+    "project_id": "4Al4H3t9",
+    "platform_version_id": "QiOlBGcz",
+    "classification": {
+      "runtime": "unknown",
+      "runtime_confidence": "unknown",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Matched persistent manual classification override",
+      "sha512": "02273b48ff4180c379257b3cf48070a067949928de69c220178ef07f9760d5e9101a7e29a78ddc9289e8070ee3229bce63df4a3a9bef117bd1f6e16f70f7b009",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "02273b48ff4180c379257b3cf48070a067949928de69c220178ef07f9760d5e9101a7e29a78ddc9289e8070ee3229bce63df4a3a9bef117bd1f6e16f70f7b009",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sereneseasonsplus"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sereneseasonsplus": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "manual-override"
+    }
+  },
+  {
+    "filename": "simplehats-neoforge-1.21.1-0.4.0.jar",
+    "name": "Simple Hats",
+    "url": "https://modrinth.com/mod/iSkQCp6b",
+    "version": "eJfr27xY",
+    "source": "modrinth",
+    "project_id": "iSkQCp6b",
+    "platform_version_id": "eJfr27xY",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "74c52268f70b7f41bf0117f93a5cb300f3e329e941b47ada593dbe9287b09be2b143ce579143a9e22a54b2d6ba1ff7c58de5ad910c26d31794e9d88b411a123a",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "74c52268f70b7f41bf0117f93a5cb300f3e329e941b47ada593dbe9287b09be2b143ce579143a9e22a54b2d6ba1ff7c58de5ad910c26d31794e9d88b411a123a",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "simplehats"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "simplehats": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "simplyswords-neoforge-1.62.0-1.21.1.jar",
+    "name": "Simply Swords",
+    "url": "https://modrinth.com/mod/bK3Ubu9p",
+    "version": "nRcJEgNo",
+    "source": "modrinth",
+    "project_id": "bK3Ubu9p",
+    "platform_version_id": "nRcJEgNo",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "5ec41c999ae221bcea68aee3b10b38734bd16a640597e589e6ee5ab00998f35b3076712b9eccf3d7107ca70d157762484e3897b0e8d4bd953cff19c93a73ea87",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "5ec41c999ae221bcea68aee3b10b38734bd16a640597e589e6ee5ab00998f35b3076712b9eccf3d7107ca70d157762484e3897b0e8d4bd953cff19c93a73ea87",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "simplyswords"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "simplyswords": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "connector-2.0.0-beta.12+1.21.1-full.jar",
+    "name": "Sinytra Connector",
+    "url": "https://modrinth.com/mod/u58R1TMW",
+    "version": "YCMXHxwl",
+    "source": "modrinth",
+    "project_id": "u58R1TMW",
+    "platform_version_id": "YCMXHxwl",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "5d3746f9cf220c3592f1398f7b7380af265c91b465c3fbaa813f521c41ac022e9e5ce909b4251a05ef8c92c3b93a3ce7e0c081577ef8ec2ab2b4ca86d112799f",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "5d3746f9cf220c3592f1398f7b7380af265c91b465c3fbaa813f521c41ac022e9e5ce909b4251a05ef8c92c3b93a3ce7e0c081577ef8ec2ab2b4ca86d112799f",
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sophisticatedbackpacks-1.21.1-3.25.18.1444.jar",
+    "name": "Sophisticated Backpacks",
+    "url": "https://modrinth.com/mod/TyCTlI4b",
+    "version": "olNaxQkY",
+    "source": "modrinth",
+    "project_id": "TyCTlI4b",
+    "platform_version_id": "olNaxQkY",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "68858cd2ab8e0390f563ba7cad7a637cb7dce16356d9bbe1d31420dff0953a3e0b729067e676a53ce9e364683ddf3557103fe6912e9aceec8443fc8213bfb1d2",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "68858cd2ab8e0390f563ba7cad7a637cb7dce16356d9bbe1d31420dff0953a3e0b729067e676a53ce9e364683ddf3557103fe6912e9aceec8443fc8213bfb1d2",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sophisticatedbackpacks"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sophisticatedbackpacks": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sophisticatedcore-1.21.1-1.3.92.1286.jar",
+    "name": "Sophisticated Core",
+    "url": "https://modrinth.com/mod/nmoqTijg",
+    "version": "rBTwYiwc",
+    "source": "modrinth",
+    "project_id": "nmoqTijg",
+    "platform_version_id": "rBTwYiwc",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "8f7278b26452a74eee85a8753bd21ba9951c3130af705301371e3c7dd5d4d1a89d177f53f8f6a6dedda81cc90cbd739d895b3205a498ec1deabb0504573d6bec",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "8f7278b26452a74eee85a8753bd21ba9951c3130af705301371e3c7dd5d4d1a89d177f53f8f6a6dedda81cc90cbd739d895b3205a498ec1deabb0504573d6bec",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sophisticatedcore"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sophisticatedcore": [
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sophisticatedstorage-1.21.1-1.5.16.1386.jar",
+    "name": "Sophisticated Storage",
+    "url": "https://modrinth.com/mod/hMlaZH8f",
+    "version": "bUgFcTvZ",
+    "source": "modrinth",
+    "project_id": "hMlaZH8f",
+    "platform_version_id": "bUgFcTvZ",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "024410806929ccc700aaef48be620ee8bf142b46bf6df28f6904d8618f7ae8530ed77eb45e744c5029d58307673da0882dcb6e1d952246c5c48e0a9e5715857d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "024410806929ccc700aaef48be620ee8bf142b46bf6df28f6904d8618f7ae8530ed77eb45e744c5029d58307673da0882dcb6e1d952246c5c48e0a9e5715857d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sophisticatedstorage"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sophisticatedstorage": [
+              "BOTH",
+              "CLIENT",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+    "name": "Sound Physics Remastered",
+    "url": "https://modrinth.com/mod/qyVF9oeo",
+    "version": "Dd2tmpsk",
+    "source": "modrinth",
+    "project_id": "qyVF9oeo",
+    "platform_version_id": "Dd2tmpsk",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "ff7e9f0b968eeb2ba0e833328a122813cad0434cfe2d5c3d527c1c0d564504f13a737fc05f22d3fea562a2f86568d31b95212bf5347dd10da36cd49ad56143a6",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "ff7e9f0b968eeb2ba0e833328a122813cad0434cfe2d5c3d527c1c0d564504f13a737fc05f22d3fea562a2f86568d31b95212bf5347dd10da36cd49ad56143a6",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "sound_physics_remastered"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "displayTest",
+          "value": [
+            "IGNORE_ALL_VERSION"
+          ],
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "sound_physics_remastered": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "spark-1.10.124-neoforge.jar",
+    "name": "spark",
+    "url": "https://modrinth.com/mod/l6YH9Als",
+    "version": "v5qtqRQi",
+    "source": "modrinth",
+    "project_id": "l6YH9Als",
+    "platform_version_id": "v5qtqRQi",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "spark"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "spark": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "SubtleEffects-neoforge-1.21.1-1.13.2-hotfix.1.jar",
+    "name": "Subtle Effects",
+    "url": "https://modrinth.com/mod/4q8UOK1d",
+    "version": "conRdzcK",
+    "source": "modrinth",
+    "project_id": "4q8UOK1d",
+    "platform_version_id": "conRdzcK",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "507e145249aa5eb5ddb1b97f9e48084219ba81d2b97f5b7dc5e6a72b368f6dbeaf1c521b0a722e5125b88e94dfb2586ee5c992340678c5de52567c67d72a924d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "507e145249aa5eb5ddb1b97f9e48084219ba81d2b97f5b7dc5e6a72b368f6dbeaf1c521b0a722e5125b88e94dfb2586ee5c992340678c5de52567c67d72a924d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "subtle_effects"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "subtle_effects": [
+              "BOTH",
+              "BOTH",
+              "CLIENT"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+    "name": "TerraBlender",
+    "url": "https://modrinth.com/mod/kkmrDlKT",
+    "version": "6e8GCrLb",
+    "source": "modrinth",
+    "project_id": "kkmrDlKT",
+    "platform_version_id": "6e8GCrLb",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "terrablender"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "terrablender": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "txnilib-neoforge-1.0.24-1.21.1.jar",
+    "name": "TxniLib",
+    "url": "https://modrinth.com/mod/vBbPDuOs",
+    "version": "M1CyD3Uu",
+    "source": "modrinth",
+    "project_id": "vBbPDuOs",
+    "platform_version_id": "M1CyD3Uu",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "656cd5746fe1b3a2cc7c516619d9f88556f37387e672bb0f362c8aecefc6f1d06705d3a84564c8779856fbbf69fee67b6038a24ffcf46f36f2c478a1aff43a57",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "656cd5746fe1b3a2cc7c516619d9f88556f37387e672bb0f362c8aecefc6f1d06705d3a84564c8779856fbbf69fee67b6038a24ffcf46f36f2c478a1aff43a57",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "txnilib"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "txnilib": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "modIds",
+          "value": [
+            "txnilib"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "txnilib": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "waystones-neoforge-1.21.1-21.1.24.jar",
+    "name": "Waystones",
+    "url": "https://modrinth.com/mod/LOpKHB2A",
+    "version": "ImHW5I5r",
+    "source": "modrinth",
+    "project_id": "LOpKHB2A",
+    "platform_version_id": "ImHW5I5r",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "81617f77da19790c3a4657622d5b879e1635cd74cb7764cf423ec3ad9450babc359e8b69fafdfc4b30ae443564a9f1e7a3bb5974a1fd1a448dc52b95d749087d",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "81617f77da19790c3a4657622d5b879e1635cd74cb7764cf423ec3ad9450babc359e8b69fafdfc4b30ae443564a9f1e7a3bb5974a1fd1a448dc52b95d749087d",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "waystones"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "waystones": [
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "xaerominimap-neoforge-1.21.1-25.3.5.jar",
+    "name": "Xaero's Minimap",
+    "url": "https://modrinth.com/mod/1bokaNcj",
+    "version": "puXrtfcK",
+    "source": "modrinth",
+    "project_id": "1bokaNcj",
+    "platform_version_id": "puXrtfcK",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "b9e261eff2987e12244a70ccc1c65688da73343f182f5c59afcfce58cd61f2c930a4920a139bea62c5c5915f9b99bf9b624c09535901f5dd679b7998f7701f17",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b9e261eff2987e12244a70ccc1c65688da73343f182f5c59afcfce58cd61f2c930a4920a139bea62c5c5915f9b99bf9b624c09535901f5dd679b7998f7701f17",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "xaerominimap"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "xaerominimap": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ],
+            "xaerobetterpvp": [
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "xaeroworldmap-neoforge-1.21.1-1.40.6.jar",
+    "name": "Xaero's World Map",
+    "url": "https://modrinth.com/mod/NcUtCpym",
+    "version": "xUpTkg0V",
+    "source": "modrinth",
+    "project_id": "NcUtCpym",
+    "platform_version_id": "xUpTkg0V",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "b16d1c0c53303e2081bb95a29ae4f994fee377e6ee47e95ab13d0a22109c59aa53701c61eb8ef55da0413fa9ce4ba8ec1320518b5cbe707cd0c8a7906c2052a3",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "b16d1c0c53303e2081bb95a29ae4f994fee377e6ee47e95ab13d0a22109c59aa53701c61eb8ef55da0413fa9ce4ba8ec1320518b5cbe707cd0c8a7906c2052a3",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "xaeroworldmap"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "dependencySides",
+          "value": {
+            "xaeroworldmap": [
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH",
+              "BOTH"
+            ]
+          },
+          "strength": "medium"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  },
+  {
+    "filename": "yet_another_config_lib_v3-3.8.1+1.21.1-neoforge.jar",
+    "name": "YetAnotherConfigLib (YACL)",
+    "url": "https://modrinth.com/mod/1eAoo2KR",
+    "version": "h8Px82QV",
+    "source": "modrinth",
+    "project_id": "1eAoo2KR",
+    "platform_version_id": "h8Px82QV",
+    "declared_side": "both",
+    "classification": {
+      "runtime": "both",
+      "runtime_confidence": "high",
+      "proposed_group": "core",
+      "confidence": "high",
+      "reason": "Prism side 'both' mapped by repository pack policy",
+      "sha512": "a2f4b4295f3e1b3e11904740d5be81efbb1503e62c205a303a1d7a1e7140c0a44462444ec4bd1708d947dd5c4a6588797da1369f4f33b32a5e957edcfc9e9983",
+      "platform": null,
+      "evidence": [
+        {
+          "source": "jar",
+          "field": "sha512",
+          "value": "a2f4b4295f3e1b3e11904740d5be81efbb1503e62c205a303a1d7a1e7140c0a44462444ec4bd1708d947dd5c4a6588797da1369f4f33b32a5e957edcfc9e9983",
+          "strength": "high"
+        },
+        {
+          "source": "META-INF/neoforge.mods.toml",
+          "field": "modIds",
+          "value": [
+            "yet_another_config_lib_v3"
+          ],
+          "strength": "high"
+        },
+        {
+          "source": "prism-packwiz-index",
+          "field": "side",
+          "value": "both",
+          "strength": "high"
+        }
+      ],
+      "warnings": [],
+      "classification_source": "automatic"
+    }
+  }
+]

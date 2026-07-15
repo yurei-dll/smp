@@ -1,0 +1,4 @@
+{
+  "name": "SMP Client Minimal",
+  "include": ["core"]
+}
